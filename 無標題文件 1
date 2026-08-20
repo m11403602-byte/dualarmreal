@@ -1,0 +1,197 @@
+echo $ROS_DOMAIN_ID
+echo $RMW_IMPLEMENTATION
+export ROS_DOMAIN_ID=5
+echo $ROS_DOMAIN_ID
+echo $RMW_IMPLEMENTATION
+source ~/hiwin_ws/install/setup.bash
+ros2 launch hiwin_dual_arm brain.launch.py
+
+echo $ROS_DOMAIN_ID
+echo $RMW_IMPLEMENTATION
+export ROS_DOMAIN_ID=5
+echo $ROS_DOMAIN_ID
+echo $RMW_IMPLEMENTATION
+source ~/hiwin_ws/install/setup.bash
+ros2 launch dual_arm_domain_bridge bridge_relay.launch.py host_domain:=5 arm_a_domain:=20 arm_b_domain:=30
+
+電腦上模擬
+RA610
+source ~/hiwin_ws/install/setup.bash
+echo $RMW_IMPLEMENTATION
+echo $ROS_DOMAIN_ID
+export ROS_DOMAIN_ID=20
+echo $RMW_IMPLEMENTATION
+echo $ROS_DOMAIN_ID
+ros2 launch hiwin_driver ra6_control.launch.py ra_type:=ra610_1476 cabinet:=gc2 use_fake_hardware:=true launch_rviz:=false
+
+RA605
+source ~/hiwin_ws/install/setup.bash
+echo $RMW_IMPLEMENTATION
+echo $ROS_DOMAIN_ID
+export ROS_DOMAIN_ID=30
+echo $RMW_IMPLEMENTATION
+echo $ROS_DOMAIN_ID
+ros2 launch hiwin_driver ra6_control.launch.py ra_type:=ra605_710 cabinet:=gc2 use_fake_hardware:=true launch_rviz:=false
+
+機器上模擬
+RA610
+啟動ROS2 driver流程與指令：
+sudo /etc/init.d/ethercat start
+
+source /opt/ros/humble/setup.bash
+
+cd ~/ws_ros2
+
+source install/setup.bash
+
+echo $RMW_IMPLEMENTATION
+
+echo $ROS_DOMAIN_ID
+ (確定現在的Domain_id)
+ 
+export ROS_DOMAIN_ID=20
+export RMW_IMPLEMENTATION=rmw_cyclonedds_cpp
+echo $ROS_DOMAIN_ID
+echo $RMW_IMPLEMENTATION
+
+taskset -c 2 ros2 launch hiwin_driver ra6_control.launch.py ra_type:=ra610_1476 cabinet:=gc2 launch_rviz:=false use_fake_hardware:=true
+
+RA605
+啟動ROS2 driver流程與指令：
+sudo /etc/init.d/ethercat start
+
+source /opt/ros/humble/setup.bash
+
+cd ~/ws_ros2
+
+source install/setup.bash
+
+echo $RMW_IMPLEMENTATION
+echo $ROS_DOMAIN_ID
+ (確定現在的Domain_id)
+ 
+export ROS_DOMAIN_ID=30
+echo $ROS_DOMAIN_ID
+echo $RMW_IMPLEMENTATION
+
+taskset -c 2 ros2 launch hiwin_driver ra6_control.launch.py ra_type:=ra605_710 cabinet:=gc2 launch_rviz:=false use_fake_hardware:=true
+
+
+
+機器實跑
+
+正常運行
+RA610
+第一個Terminal視窗
+啟動ROS2 driver流程與指令：
+sudo /etc/init.d/ethercat start
+
+source /opt/ros/humble/setup.bash
+
+cd ~/ws_ros2
+
+source install/setup.bash
+
+echo $ROS_DOMAIN_ID
+
+echo $RMW_IMPLEMENTATION
+ (確定現在的Domain_id)
+ 
+export ROS_DOMAIN_ID=20
+export RMW_IMPLEMENTATION=rmw_cyclonedds_cpp
+echo $ROS_DOMAIN_ID
+echo $RMW_IMPLEMENTATION
+
+taskset -c 2 ros2 launch hiwin_driver ra6_control.launch.py ra_type:=ra610_1476 cabinet:=ecat launch_rviz:=false
+
+
+第二個Terminal視窗
+啟動ROS2 driver流程與指令：
+sudo /etc/init.d/ethercat start
+
+source /opt/ros/humble/setup.bash
+
+cd ~/ws_ros2
+
+source install/setup.bash
+
+echo $ROS_DOMAIN_ID
+
+echo $RMW_IMPLEMENTATION
+ (確定現在的Domain_id)
+ 
+export ROS_DOMAIN_ID=20
+export RMW_IMPLEMENTATION=rmw_cyclonedds_cpp
+echo $ROS_DOMAIN_ID
+echo $RMW_IMPLEMENTATION
+
+ros2 service call /gpio_controller/set_io hiwin_msgs/srv/SetIO "{io_group: system, interface_name: reset_safety_rly, value: 1.0}"
+
+
+
+RA605
+第一個Terminal視窗
+啟動ROS2 driver流程與指令：
+sudo /etc/init.d/ethercat start
+
+source /opt/ros/humble/setup.bash
+
+cd ~/ws_ros2
+
+source install/setup.bash
+
+echo $ROS_DOMAIN_ID
+
+echo $RMW_IMPLEMENTATION
+ (確定現在的Domain_id)
+ 
+export ROS_DOMAIN_ID=30
+echo $ROS_DOMAIN_ID
+echo $RMW_IMPLEMENTATION
+
+taskset -c 2 ros2 launch hiwin_driver ra6_control.launch.py ra_type:=ra605_710 cabinet:=ecat launch_rviz:=false
+
+第二個Terminal視窗
+啟動ROS2 driver流程與指令：
+sudo /etc/init.d/ethercat start
+
+source /opt/ros/humble/setup.bash
+
+cd ~/ws_ros2
+
+source install/setup.bash
+
+echo $ROS_DOMAIN_ID
+
+echo $RMW_IMPLEMENTATION
+ (確定現在的Domain_id)
+ 
+export ROS_DOMAIN_ID=30
+echo $ROS_DOMAIN_ID
+echo $RMW_IMPLEMENTATION
+
+ros2 service call /gpio_controller/set_io hiwin_msgs/srv/SetIO "{io_group: system, interface_name: reset_safety_rly, value: 1.0}"
+
+
+按下急停按鈕後，鬆開重起程序
+第二個Terminal視窗
+RA610
+ros2 service call /reset_fault_controller/reset_fault hiwin_msgs/srv/ResetJointFault "{joint_name: 'joint_1'}"
+ros2 service call /reset_fault_controller/reset_fault hiwin_msgs/srv/ResetJointFault "{joint_name: 'joint_2'}"
+ros2 service call /reset_fault_controller/reset_fault hiwin_msgs/srv/ResetJointFault "{joint_name: 'joint_3'}"
+ros2 service call /reset_fault_controller/reset_fault hiwin_msgs/srv/ResetJointFault "{joint_name: 'joint_4'}"
+ros2 service call /reset_fault_controller/reset_fault hiwin_msgs/srv/ResetJointFault "{joint_name: 'joint_5'}"
+ros2 service call /reset_fault_controller/reset_fault hiwin_msgs/srv/ResetJointFault "{joint_name: 'joint_6'}"
+ros2 service call /gpio_controller/set_io hiwin_msgs/srv/SetIO "{io_group: system, interface_name: reset_safety_rly, value: 1.0}"
+
+
+RA605
+ros2 service call /reset_fault_controller/reset_fault hiwin_msgs/srv/ResetJointFault "{joint_name: 'joint_1'}"
+ros2 service call /reset_fault_controller/reset_fault hiwin_msgs/srv/ResetJointFault "{joint_name: 'joint_2'}"
+ros2 service call /reset_fault_controller/reset_fault hiwin_msgs/srv/ResetJointFault "{joint_name: 'joint_3'}"
+ros2 service call /reset_fault_controller/reset_fault hiwin_msgs/srv/ResetJointFault "{joint_name: 'joint_4'}"
+ros2 service call /reset_fault_controller/reset_fault hiwin_msgs/srv/ResetJointFault "{joint_name: 'joint_5'}"
+ros2 service call /reset_fault_controller/reset_fault hiwin_msgs/srv/ResetJointFault "{joint_name: 'joint_6'}"
+ros2 service call /gpio_controller/set_io hiwin_msgs/srv/SetIO "{io_group: system, interface_name: reset_safety_rly, value: 1.0}"
+
+
