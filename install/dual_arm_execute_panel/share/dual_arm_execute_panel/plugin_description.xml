@@ -1,0 +1,7 @@
+<library path="dual_arm_execute_panel">
+  <class name="dual_arm_execute_panel/ExecutePanel"
+         type="dual_arm_execute_panel::ExecutePanel"
+         base_class_type="rviz_common::Panel">
+    <description>雙臂 Topic 執行面板: 顯示最新規劃, 按鈕觸發 client 的 execute/cancel service</description>
+  </class>
+</library>

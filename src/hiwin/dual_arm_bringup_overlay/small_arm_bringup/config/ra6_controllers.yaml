@@ -1,0 +1,43 @@
+# [來源] 修改自: hiwin_driver/config/ra6_controllers.yaml（官方原檔; 關節名加 small_ 前綴）
+/**:                         #revise
+  controller_manager:
+    ros__parameters:
+      update_rate: 500  # Hz
+      joint_state_broadcaster:
+        type: joint_state_broadcaster/JointStateBroadcaster
+      joint_trajectory_controller:
+        type: joint_trajectory_controller/JointTrajectoryController
+      reset_fault_controller:
+        type: hiwin_controllers/ResetFaultController
+  joint_trajectory_controller:
+    ros__parameters:
+      allow_partial_joints_goal: true
+      joints:
+        - small_joint_1      #revise
+        - small_joint_2      #revise
+        - small_joint_3      #revise
+        - small_joint_4      #revise
+        - small_joint_5      #revise
+        - small_joint_6      #revise
+      command_interfaces:
+        - position
+      state_interfaces:
+        - position
+        - velocity
+      closed_loop: true
+      interpolation_method: "splines"
+  reset_fault_controller:
+    ros__parameters:
+      update_rate: 100
+      trajectory_action_server: "joint_trajectory_controller/follow_joint_trajectory"       #revise相對路徑
+      joints:
+        - small_joint_1       #revise
+        - small_joint_2       #revise
+        - small_joint_3       #revise
+        - small_joint_4       #revise
+        - small_joint_5       #revise
+        - small_joint_6       #revise
+      command_interfaces:
+        - reset_fault
+      state_interfaces:
+        - position

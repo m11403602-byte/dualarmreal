@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<!-- [來源] 新建檔案 - dual_arm_execute_panel (RViz Panel 外掛, 等級 2 範例) -->
+<package format="3">
+  <name>dual_arm_execute_panel</name>
+  <version>0.1.0</version>
+  <description>RViz panel: trigger dual-arm topic execution via client services</description>
+  <maintainer email="user@example.com">user</maintainer>
+  <license>MIT</license>
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <depend>rclcpp</depend>
+  <depend>rviz_common</depend>
+  <depend>pluginlib</depend>
+  <depend>std_srvs</depend>
+  <depend>moveit_msgs</depend>
+  <depend>qtbase5-dev</depend>
+  <export><build_type>ament_cmake</build_type></export>
+</package>

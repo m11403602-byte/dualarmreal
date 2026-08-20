@@ -1,0 +1,4 @@
+/home/dualarm/hiwin_ws/build/hiwin_msgs/rosidl_adapter/hiwin_msgs:msg/SystemIOStates.idl
+/home/dualarm/hiwin_ws/build/hiwin_msgs/rosidl_adapter/hiwin_msgs:msg/DigitalIOStates.idl
+/home/dualarm/hiwin_ws/build/hiwin_msgs/rosidl_adapter/hiwin_msgs:srv/SetIO.idl
+/home/dualarm/hiwin_ws/build/hiwin_msgs/rosidl_adapter/hiwin_msgs:srv/ResetJointFault.idl

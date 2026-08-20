@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<!-- [來源] 新建檔案（格式比照 big_arm_bringup/package.xml） -->
+<package format="3">
+  <name>big_arm_moveit_config</name>
+  <version>0.0.1</version>
+  <description>Single-arm MoveIt config/launch for HIWIN RA610-1476 (tf_prefix=big_, namespaced).
+    Prefixed SRDF/joint_limits + moveit_controllers aligned with big_arm_bringup's ra6_controllers.yaml.
+    The all-in-one launch (official style) also starts the control stack.</description>
+  <maintainer email="you@example.com">you</maintainer>
+  <license>Apache-2.0</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <exec_depend>moveit_ros_move_group</exec_depend>
+  <exec_depend>robot_state_publisher</exec_depend>
+  <exec_depend>controller_manager</exec_depend>
+  <exec_depend>rviz2</exec_depend>
+  <exec_depend>xacro</exec_depend>
+  <exec_depend>hiwin_ra6_moveit_config</exec_depend>
+  <exec_depend>hiwin_driver</exec_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

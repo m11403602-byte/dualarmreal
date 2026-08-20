@@ -1,0 +1,81 @@
+[0.037s] Invoking command in '/home/john/hiwin_ws/src/hiwin/dual_arm_execute_panel/build/dual_arm_execute_panel': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/john/ws_moveit2/install/moveit_configs_utils:/home/john/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake /home/john/hiwin_ws/src/hiwin/dual_arm_execute_panel -DCMAKE_INSTALL_PREFIX=/home/john/hiwin_ws/src/hiwin/dual_arm_execute_panel/install/dual_arm_execute_panel
+[0.205s] -- The C compiler identification is GNU 11.4.0
+[0.330s] -- The CXX compiler identification is GNU 11.4.0
+[0.349s] -- Detecting C compiler ABI info
+[0.544s] -- Detecting C compiler ABI info - done
+[0.556s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.557s] -- Detecting C compile features
+[0.558s] -- Detecting C compile features - done
+[0.562s] -- Detecting CXX compiler ABI info
+[0.765s] -- Detecting CXX compiler ABI info - done
+[0.775s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.775s] -- Detecting CXX compile features
+[0.775s] -- Detecting CXX compile features - done
+[0.788s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.094s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.359s] -- Found rclcpp: 16.0.17 (/opt/ros/humble/share/rclcpp/cmake)
+[1.505s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.529s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.560s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.594s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.640s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.805s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.822s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.151s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.213s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.304s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.346s] -- Looking for pthread.h
+[2.553s] -- Looking for pthread.h - found
+[2.556s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.769s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.769s] -- Found Threads: TRUE  
+[2.889s] -- Found rviz_common: 11.2.17 (/opt/ros/humble/share/rviz_common/cmake)
+[2.935s] -- Setting assimp_DIR to: '/opt/ros/humble/share/rviz_assimp_vendor/cmake/../../../opt/rviz_assimp_vendor/lib/cmake/assimp-4.1'
+[2.969s] -- Setting OGRE_DIR to: '/opt/ros/humble/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+[2.970s] -- Found OGRE
+[2.970s] --   static     : OFF
+[2.971s] --   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+[2.971s] --   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[2.971s] --   media      : /opt/ros/humble/opt/rviz_ogre_vendor/share/OGRE/Media
+[2.971s] -- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+[2.971s] -- OGRE_LIBRARY_DIRS: /opt/ros/humble/opt/rviz_ogre_vendor/lib
+[2.971s] -- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[2.971s] -- OGRE_PLUGIN_DIR: /opt/ros/humble/opt/rviz_ogre_vendor/lib/OGRE
+[2.972s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[2.972s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[2.972s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[2.972s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[2.974s] -- Could not find freeimage library
+[3.012s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+[3.026s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
+[3.350s] -- Found X11: /usr/include   
+[3.350s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[3.563s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[3.563s] -- Looking for gethostbyname
+[3.787s] -- Looking for gethostbyname - found
+[3.790s] -- Looking for connect
+[4.003s] -- Looking for connect - found
+[4.005s] -- Looking for remove
+[4.189s] -- Looking for remove - found
+[4.189s] -- Looking for shmat
+[4.392s] -- Looking for shmat - found
+[4.392s] -- Looking for IceConnectionNumber in ICE
+[4.590s] -- Looking for IceConnectionNumber in ICE - found
+[4.937s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[5.143s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[5.143s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[5.437s] -- Found std_srvs: 4.9.0 (/opt/ros/humble/share/std_srvs/cmake)
+[5.461s] -- Found moveit_msgs: 2.2.1 (/opt/ros/humble/share/moveit_msgs/cmake)
+[5.747s] -- Configuring done
+[5.814s] -- Generating done
+[5.825s] -- Build files have been written to: /home/john/hiwin_ws/src/hiwin/dual_arm_execute_panel/build/dual_arm_execute_panel
+[5.852s] Invoked command in '/home/john/hiwin_ws/src/hiwin/dual_arm_execute_panel/build/dual_arm_execute_panel' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/john/ws_moveit2/install/moveit_configs_utils:/home/john/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake /home/john/hiwin_ws/src/hiwin/dual_arm_execute_panel -DCMAKE_INSTALL_PREFIX=/home/john/hiwin_ws/src/hiwin/dual_arm_execute_panel/install/dual_arm_execute_panel
+[5.853s] Invoking command in '/home/john/hiwin_ws/src/hiwin/dual_arm_execute_panel/build/dual_arm_execute_panel': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/john/ws_moveit2/install/moveit_configs_utils:/home/john/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/john/hiwin_ws/src/hiwin/dual_arm_execute_panel/build/dual_arm_execute_panel -- -j6 -l6
+[6.042s] [ 25%] [34m[1mAutomatic MOC for target dual_arm_execute_panel[0m
+[6.531s] [ 25%] Built target dual_arm_execute_panel_autogen
+[6.605s] [ 50%] [32mBuilding CXX object CMakeFiles/dual_arm_execute_panel.dir/src/execute_panel.cpp.o[0m
+[6.607s] [ 75%] [32mBuilding CXX object CMakeFiles/dual_arm_execute_panel.dir/dual_arm_execute_panel_autogen/mocs_compilation.cpp.o[0m
+[17.152s] gmake[2]: *** [CMakeFiles/dual_arm_execute_panel.dir/build.make:90: CMakeFiles/dual_arm_execute_panel.dir/src/execute_panel.cpp.o] Interrupt
+[17.153s] gmake[1]: *** [CMakeFiles/Makefile2:138: CMakeFiles/dual_arm_execute_panel.dir/all] Interrupt
+[17.159s] gmake: *** [Makefile:146: all] Interrupt
+[17.200s] Invoked command in '/home/john/hiwin_ws/src/hiwin/dual_arm_execute_panel/build/dual_arm_execute_panel' returned '-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/john/ws_moveit2/install/moveit_configs_utils:/home/john/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/john/hiwin_ws/src/hiwin/dual_arm_execute_panel/build/dual_arm_execute_panel -- -j6 -l6

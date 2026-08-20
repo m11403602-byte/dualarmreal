@@ -1,0 +1,29 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from hiwin_msgs/msg/SystemIOStates.msg
+// generated code does not contain a copyright notice
+
+#include "builtin_interfaces/msg/Time.idl"
+
+module hiwin_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "hiwin_msgs/msg/SystemIOStates.msg")
+    struct SystemIOStates {
+      builtin_interfaces::msg::Time stamp;
+
+      boolean breaker;
+
+      boolean e_stop;
+
+      boolean e_stop2;
+
+      boolean fan_error;
+
+      boolean capacitor_error;
+
+      boolean clear_error_notify;
+
+      boolean shutdown_notify;
+    };
+  };
+};

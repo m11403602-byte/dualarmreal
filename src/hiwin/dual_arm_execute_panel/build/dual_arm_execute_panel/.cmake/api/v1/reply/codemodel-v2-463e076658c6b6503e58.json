@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-7ace5e6d586ec830d5ca.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "dual_arm_execute_panel",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "dual_arm_execute_panel::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dual_arm_execute_panel-Release-ba8ba78bfbf8dd847c95.json",
+					"name" : "dual_arm_execute_panel",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dual_arm_execute_panel_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dual_arm_execute_panel_autogen-Release-bee7b803c29c459a744a.json",
+					"name" : "dual_arm_execute_panel_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dual_arm_execute_panel_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dual_arm_execute_panel_uninstall-Release-529a5026139ad256bf07.json",
+					"name" : "dual_arm_execute_panel_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-19e3b1c4ed53775d244a.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/john/hiwin_ws/src/hiwin/dual_arm_execute_panel/build/dual_arm_execute_panel",
+		"source" : "/home/john/hiwin_ws/src/hiwin/dual_arm_execute_panel"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

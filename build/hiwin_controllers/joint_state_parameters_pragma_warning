@@ -1,0 +1,1 @@
+#pragma message("#include \"joint_state_parameters.hpp\" is deprecated. Use #include <hiwin_controllers/joint_state_parameters.hpp> instead.")

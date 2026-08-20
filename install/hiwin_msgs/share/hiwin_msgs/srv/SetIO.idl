@@ -1,0 +1,27 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from hiwin_msgs/srv/SetIO.srv
+// generated code does not contain a copyright notice
+
+
+module hiwin_msgs {
+  module srv {
+    struct SetIO_Request {
+      @verbatim (language="comment", text=
+        "e.g. \"system\"")
+      string io_group;
+
+      @verbatim (language="comment", text=
+        "e.g. \"reset\"")
+      string interface_name;
+
+      @verbatim (language="comment", text=
+        "e.g. 1.0")
+      double value;
+    };
+    struct SetIO_Response {
+      boolean success;
+
+      string message;
+    };
+  };
+};

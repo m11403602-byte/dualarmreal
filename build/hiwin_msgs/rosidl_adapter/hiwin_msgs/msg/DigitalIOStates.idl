@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from hiwin_msgs/msg/DigitalIOStates.msg
+// generated code does not contain a copyright notice
+
+#include "builtin_interfaces/msg/Time.idl"
+
+module hiwin_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "hiwin_msgs/msg/DigitalIOStates.msg")
+    struct DigitalIOStates {
+      builtin_interfaces::msg::Time stamp;
+
+      sequence<string> di_names;
+
+      sequence<boolean> di_values;
+    };
+  };
+};

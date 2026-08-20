@@ -1,0 +1,38 @@
+[0.011s] Invoking command in '/home/dualarm/hiwin_ws/build/dual_arm_execute_panel': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dualarm/ws_moveit2/install/moveit_configs_utils:/home/dualarm/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/dualarm/hiwin_ws/build/dual_arm_execute_panel -- -j16 -l16
+[0.070s] [ 25%] [34m[1mAutomatic MOC for target dual_arm_execute_panel[0m
+[0.340s] [ 25%] Built target dual_arm_execute_panel_autogen
+[0.372s] [ 50%] [32mBuilding CXX object CMakeFiles/dual_arm_execute_panel.dir/dual_arm_execute_panel_autogen/mocs_compilation.cpp.o[0m
+[0.373s] [ 75%] [32mBuilding CXX object CMakeFiles/dual_arm_execute_panel.dir/src/execute_panel.cpp.o[0m
+[9.670s] [100%] [32m[1mLinking CXX shared library libdual_arm_execute_panel.so[0m
+[10.564s] [100%] Built target dual_arm_execute_panel
+[10.574s] Invoked command in '/home/dualarm/hiwin_ws/build/dual_arm_execute_panel' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dualarm/ws_moveit2/install/moveit_configs_utils:/home/dualarm/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/dualarm/hiwin_ws/build/dual_arm_execute_panel -- -j16 -l16
+[10.575s] Invoking command in '/home/dualarm/hiwin_ws/build/dual_arm_execute_panel': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dualarm/ws_moveit2/install/moveit_configs_utils:/home/dualarm/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/dualarm/hiwin_ws/build/dual_arm_execute_panel
+[10.583s] -- Install configuration: "Release"
+[10.583s] -- Up-to-date: /home/dualarm/hiwin_ws/install/dual_arm_execute_panel/share/dual_arm_execute_panel/plugin_description.xml
+[10.584s] -- Installing: /home/dualarm/hiwin_ws/install/dual_arm_execute_panel/lib/libdual_arm_execute_panel.so
+[10.585s] -- Set runtime path of "/home/dualarm/hiwin_ws/install/dual_arm_execute_panel/lib/libdual_arm_execute_panel.so" to ""
+[10.585s] -- Up-to-date: /home/dualarm/hiwin_ws/install/dual_arm_execute_panel/include
+[10.585s] -- Up-to-date: /home/dualarm/hiwin_ws/install/dual_arm_execute_panel/include/dual_arm_execute_panel
+[10.585s] -- Up-to-date: /home/dualarm/hiwin_ws/install/dual_arm_execute_panel/include/dual_arm_execute_panel/execute_panel.hpp
+[10.585s] -- Up-to-date: /home/dualarm/hiwin_ws/install/dual_arm_execute_panel/share/dual_arm_execute_panel/plugin_description.xml
+[10.585s] -- Up-to-date: /home/dualarm/hiwin_ws/install/dual_arm_execute_panel/share/dual_arm_execute_panel/environment/library_path.sh
+[10.585s] -- Up-to-date: /home/dualarm/hiwin_ws/install/dual_arm_execute_panel/share/dual_arm_execute_panel/environment/library_path.dsv
+[10.585s] -- Up-to-date: /home/dualarm/hiwin_ws/install/dual_arm_execute_panel/share/ament_index/resource_index/package_run_dependencies/dual_arm_execute_panel
+[10.586s] -- Up-to-date: /home/dualarm/hiwin_ws/install/dual_arm_execute_panel/share/ament_index/resource_index/parent_prefix_path/dual_arm_execute_panel
+[10.586s] -- Up-to-date: /home/dualarm/hiwin_ws/install/dual_arm_execute_panel/share/dual_arm_execute_panel/environment/ament_prefix_path.sh
+[10.586s] -- Up-to-date: /home/dualarm/hiwin_ws/install/dual_arm_execute_panel/share/dual_arm_execute_panel/environment/ament_prefix_path.dsv
+[10.586s] -- Up-to-date: /home/dualarm/hiwin_ws/install/dual_arm_execute_panel/share/dual_arm_execute_panel/environment/path.sh
+[10.586s] -- Up-to-date: /home/dualarm/hiwin_ws/install/dual_arm_execute_panel/share/dual_arm_execute_panel/environment/path.dsv
+[10.586s] -- Up-to-date: /home/dualarm/hiwin_ws/install/dual_arm_execute_panel/share/dual_arm_execute_panel/local_setup.bash
+[10.586s] -- Up-to-date: /home/dualarm/hiwin_ws/install/dual_arm_execute_panel/share/dual_arm_execute_panel/local_setup.sh
+[10.586s] -- Up-to-date: /home/dualarm/hiwin_ws/install/dual_arm_execute_panel/share/dual_arm_execute_panel/local_setup.zsh
+[10.586s] -- Up-to-date: /home/dualarm/hiwin_ws/install/dual_arm_execute_panel/share/dual_arm_execute_panel/local_setup.dsv
+[10.586s] -- Installing: /home/dualarm/hiwin_ws/install/dual_arm_execute_panel/share/dual_arm_execute_panel/package.dsv
+[10.586s] -- Up-to-date: /home/dualarm/hiwin_ws/install/dual_arm_execute_panel/share/ament_index/resource_index/packages/dual_arm_execute_panel
+[10.586s] -- Up-to-date: /home/dualarm/hiwin_ws/install/dual_arm_execute_panel/share/ament_index/resource_index/rviz_common__pluginlib__plugin/dual_arm_execute_panel
+[10.586s] -- Up-to-date: /home/dualarm/hiwin_ws/install/dual_arm_execute_panel/share/dual_arm_execute_panel/cmake/ament_cmake_export_include_directories-extras.cmake
+[10.586s] -- Up-to-date: /home/dualarm/hiwin_ws/install/dual_arm_execute_panel/share/dual_arm_execute_panel/cmake/ament_cmake_export_libraries-extras.cmake
+[10.586s] -- Up-to-date: /home/dualarm/hiwin_ws/install/dual_arm_execute_panel/share/dual_arm_execute_panel/cmake/dual_arm_execute_panelConfig.cmake
+[10.586s] -- Up-to-date: /home/dualarm/hiwin_ws/install/dual_arm_execute_panel/share/dual_arm_execute_panel/cmake/dual_arm_execute_panelConfig-version.cmake
+[10.586s] -- Up-to-date: /home/dualarm/hiwin_ws/install/dual_arm_execute_panel/share/dual_arm_execute_panel/package.xml
+[10.588s] Invoked command in '/home/dualarm/hiwin_ws/build/dual_arm_execute_panel' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dualarm/ws_moveit2/install/moveit_configs_utils:/home/dualarm/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/dualarm/hiwin_ws/build/dual_arm_execute_panel

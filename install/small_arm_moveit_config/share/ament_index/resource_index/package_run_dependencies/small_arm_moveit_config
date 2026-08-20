@@ -1,0 +1,1 @@
+moveit_ros_move_group;robot_state_publisher;controller_manager;rviz2;xacro;hiwin_ra6_moveit_config;hiwin_driver

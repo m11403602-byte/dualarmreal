@@ -1,0 +1,45 @@
+# [來源] 複製自: big_arm_bringup/config/ra6_controllers.yaml（[SYNC] 兩份須同步）
+# [SYNC] 本檔為 big_arm_bringup/config/ra6_controllers.yaml 的複本,
+#        讓本 MoveIt 包自足 (不依賴控制包)。改控制器參數時兩份要同步。
+/**:                      #revise
+  controller_manager:
+    ros__parameters:
+      update_rate: 500  # Hz
+      joint_state_broadcaster:
+        type: joint_state_broadcaster/JointStateBroadcaster
+      joint_trajectory_controller:
+        type: joint_trajectory_controller/JointTrajectoryController
+      reset_fault_controller:
+        type: hiwin_controllers/ResetFaultController
+  joint_trajectory_controller:
+    ros__parameters:
+      allow_partial_joints_goal: true
+      joints:
+        - big_joint_1    #revise
+        - big_joint_2    #revise
+        - big_joint_3    #revise
+        - big_joint_4    #revise
+        - big_joint_5    #revise
+        - big_joint_6    #revise
+      command_interfaces:
+        - position
+      state_interfaces:
+        - position
+        - velocity
+      closed_loop: true
+      interpolation_method: "splines"
+  reset_fault_controller:
+    ros__parameters:
+      update_rate: 100
+      trajectory_action_server: "joint_trajectory_controller/follow_joint_trajectory" #revise 相對路徑
+      joints:
+        - big_joint_1      #revise
+        - big_joint_2      #revise
+        - big_joint_3      #revise
+        - big_joint_4      #revise
+        - big_joint_5      #revise
+        - big_joint_6      #revise
+      command_interfaces:
+        - reset_fault
+      state_interfaces:
+        - position

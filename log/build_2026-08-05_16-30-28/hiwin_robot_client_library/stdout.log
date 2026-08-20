@@ -1,0 +1,16 @@
+[35m[1mConsolidate compiler generated dependencies of target hrsdk[0m
+[100%] Built target hrsdk
+-- Install configuration: "Release"
+-- Up-to-date: /home/dualarm/hiwin_ws/install/hiwin_robot_client_library/lib/libhrsdk.so
+-- Up-to-date: /home/dualarm/hiwin_ws/install/hiwin_robot_client_library/include
+-- Up-to-date: /home/dualarm/hiwin_ws/install/hiwin_robot_client_library/include/hiwin_robot_client_library
+-- Up-to-date: /home/dualarm/hiwin_ws/install/hiwin_robot_client_library/include/hiwin_robot_client_library/file_client.hpp
+-- Up-to-date: /home/dualarm/hiwin_ws/install/hiwin_robot_client_library/include/hiwin_robot_client_library/commander.hpp
+-- Up-to-date: /home/dualarm/hiwin_ws/install/hiwin_robot_client_library/include/hiwin_robot_client_library/socket
+-- Up-to-date: /home/dualarm/hiwin_ws/install/hiwin_robot_client_library/include/hiwin_robot_client_library/socket/tcp_client.hpp
+-- Up-to-date: /home/dualarm/hiwin_ws/install/hiwin_robot_client_library/include/hiwin_robot_client_library/hiwin_driver.hpp
+-- Up-to-date: /home/dualarm/hiwin_ws/install/hiwin_robot_client_library/include/hiwin_robot_client_library/event_cb.hpp
+-- Up-to-date: /home/dualarm/hiwin_ws/install/hiwin_robot_client_library/lib/cmake/hiwin_robot_client_library/hrsdkTargets.cmake
+-- Up-to-date: /home/dualarm/hiwin_ws/install/hiwin_robot_client_library/lib/cmake/hiwin_robot_client_library/hrsdkTargets-release.cmake
+-- Up-to-date: /home/dualarm/hiwin_ws/install/hiwin_robot_client_library/lib/cmake/hiwin_robot_client_library/hiwin_robot_client_libraryConfig.cmake
+-- Up-to-date: /home/dualarm/hiwin_ws/install/hiwin_robot_client_library/lib/cmake/hiwin_robot_client_library/hiwin_robot_client_libraryConfigVersion.cmake

@@ -1,0 +1,23 @@
+# [來源] 修改自: hiwin_ra6_moveit_config/config/moveit_controllers.yaml（官方原檔; 控制器名與關節名對齊 small 臂）
+# [overlay] MoveIt 控制器設定 — small 臂 (對齊本套件 ra6_controllers.yaml)
+#   move_group 跑在 /small_arm namespace 內, 控制器用相對名:
+#     joint_trajectory_controller + follow_joint_trajectory
+#     -> 解析為 /small_arm/joint_trajectory_controller/follow_joint_trajectory ✓
+#   joints 與 ra6_controllers.yaml 的 joint_trajectory_controller.joints 一致
+moveit_controller_manager: moveit_simple_controller_manager/MoveItSimpleControllerManager
+
+moveit_simple_controller_manager:
+  controller_names:
+    - joint_trajectory_controller    #revise 官方是 manipulator_controller
+
+  joint_trajectory_controller:       #revise 對齊 ra6_controllers.yaml 的控制器名
+    type: FollowJointTrajectory
+    action_ns: follow_joint_trajectory
+    default: true
+    joints:
+      - small_joint_1    #revise 前綴化
+      - small_joint_2    #revise 前綴化
+      - small_joint_3    #revise 前綴化
+      - small_joint_4    #revise 前綴化
+      - small_joint_5    #revise 前綴化
+      - small_joint_6    #revise 前綴化

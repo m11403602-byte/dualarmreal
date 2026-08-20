@@ -1,0 +1,60 @@
+# ============================================================================
+# big_arm_controllers.yaml
+# 用途: 大手臂 (RA610-1476) 在 namespace /big_arm 下的 controller 設定
+# ============================================================================
+
+big_arm:
+  controller_manager:
+    ros__parameters:
+      update_rate: 500  # Hz — 匹配 EtherCAT control_frequency
+
+      big_arm_controller:
+        type: joint_trajectory_controller/JointTrajectoryController
+
+      joint_state_broadcaster:
+        type: joint_state_broadcaster/JointStateBroadcaster
+
+      reset_fault_controller:
+        type: hiwin_controllers/ResetFaultController
+
+  big_arm_controller:
+    ros__parameters:
+      allow_partial_joints_goal: true
+      joints:
+        - big_joint_1
+        - big_joint_2
+        - big_joint_3
+        - big_joint_4
+        - big_joint_5
+        - big_joint_6
+      command_interfaces:
+        - position
+      state_interfaces:
+        - position
+        - velocity
+
+  reset_fault_controller:
+    ros__parameters:
+      update_rate: 100
+      trajectory_action_server: "/big_arm/big_arm_controller/follow_joint_trajectory"
+      joints:
+        - big_joint_1
+        - big_joint_2
+        - big_joint_3
+        - big_joint_4
+        - big_joint_5
+        - big_joint_6
+      command_interfaces:
+        - reset_fault
+      state_interfaces:
+        - position
+
+  joint_state_broadcaster:
+    ros__parameters:
+      joints:
+        - big_joint_1
+        - big_joint_2
+        - big_joint_3
+        - big_joint_4
+        - big_joint_5
+        - big_joint_6

@@ -1,0 +1,2 @@
+round,total_iter,conv_iter,diverge_iter,maxD_final,time_ms,L,f,f_a,f_b,penalty,final_G_norm,final_r_stat,final_kkt
+1,33,33,-1,0.3083852577,8.913748,-5717.076951,479.5028193,763.9945294,195.0111092,-6196.579771,27.30866463,13.08139973,16.7085564

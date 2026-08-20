@@ -1,0 +1,3 @@
+string io_group     # e.g. "system"
+string interface_name # e.g. "reset"
+float64 value         # e.g. 1.0

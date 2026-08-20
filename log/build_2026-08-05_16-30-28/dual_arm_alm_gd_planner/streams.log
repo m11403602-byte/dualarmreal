@@ -1,0 +1,38 @@
+[0.009s] Invoking command in '/home/dualarm/hiwin_ws/build/dual_arm_alm_gd_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dualarm/ws_moveit2/install/moveit_configs_utils:/home/dualarm/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/dualarm/hiwin_ws/build/dual_arm_alm_gd_planner -- -j16 -l16
+[0.049s] [35m[1mConsolidate compiler generated dependencies of target dual_arm_alm_gd_planner[0m
+[0.071s] [100%] Built target dual_arm_alm_gd_planner
+[0.080s] Invoked command in '/home/dualarm/hiwin_ws/build/dual_arm_alm_gd_planner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dualarm/ws_moveit2/install/moveit_configs_utils:/home/dualarm/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/dualarm/hiwin_ws/build/dual_arm_alm_gd_planner -- -j16 -l16
+[0.081s] Invoking command in '/home/dualarm/hiwin_ws/build/dual_arm_alm_gd_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dualarm/ws_moveit2/install/moveit_configs_utils:/home/dualarm/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/dualarm/hiwin_ws/build/dual_arm_alm_gd_planner
+[0.088s] -- Install configuration: "Release"
+[0.088s] -- Installing: /home/dualarm/hiwin_ws/install/dual_arm_alm_gd_planner/share/dual_arm_alm_gd_planner/dual_arm_alm_gd_planner.xml
+[0.089s] -- Installing: /home/dualarm/hiwin_ws/install/dual_arm_alm_gd_planner/lib/libdual_arm_alm_gd_planner.so
+[0.089s] -- Set runtime path of "/home/dualarm/hiwin_ws/install/dual_arm_alm_gd_planner/lib/libdual_arm_alm_gd_planner.so" to ""
+[0.089s] -- Installing: /home/dualarm/hiwin_ws/install/dual_arm_alm_gd_planner/include
+[0.089s] -- Installing: /home/dualarm/hiwin_ws/install/dual_arm_alm_gd_planner/include/dual_arm_alm_gd_planner
+[0.089s] -- Installing: /home/dualarm/hiwin_ws/install/dual_arm_alm_gd_planner/include/dual_arm_alm_gd_planner/planner_manager.hpp
+[0.089s] -- Installing: /home/dualarm/hiwin_ws/install/dual_arm_alm_gd_planner/include/dual_arm_alm_gd_planner/gd_solver.hpp
+[0.089s] -- Installing: /home/dualarm/hiwin_ws/install/dual_arm_alm_gd_planner/include/dual_arm_alm_gd_planner/avoidance_system.hpp
+[0.089s] -- Installing: /home/dualarm/hiwin_ws/install/dual_arm_alm_gd_planner/include/dual_arm_alm_gd_planner/data_io.hpp
+[0.089s] -- Installing: /home/dualarm/hiwin_ws/install/dual_arm_alm_gd_planner/share/dual_arm_alm_gd_planner/config
+[0.090s] -- Installing: /home/dualarm/hiwin_ws/install/dual_arm_alm_gd_planner/share/dual_arm_alm_gd_planner/config/dual_arm_alm_gd_planning.yaml
+[0.090s] -- Installing: /home/dualarm/hiwin_ws/install/dual_arm_alm_gd_planner/share/dual_arm_alm_gd_planner/environment/library_path.sh
+[0.090s] -- Installing: /home/dualarm/hiwin_ws/install/dual_arm_alm_gd_planner/share/dual_arm_alm_gd_planner/environment/library_path.dsv
+[0.090s] -- Installing: /home/dualarm/hiwin_ws/install/dual_arm_alm_gd_planner/share/ament_index/resource_index/package_run_dependencies/dual_arm_alm_gd_planner
+[0.090s] -- Installing: /home/dualarm/hiwin_ws/install/dual_arm_alm_gd_planner/share/ament_index/resource_index/parent_prefix_path/dual_arm_alm_gd_planner
+[0.090s] -- Installing: /home/dualarm/hiwin_ws/install/dual_arm_alm_gd_planner/share/dual_arm_alm_gd_planner/environment/ament_prefix_path.sh
+[0.090s] -- Installing: /home/dualarm/hiwin_ws/install/dual_arm_alm_gd_planner/share/dual_arm_alm_gd_planner/environment/ament_prefix_path.dsv
+[0.090s] -- Installing: /home/dualarm/hiwin_ws/install/dual_arm_alm_gd_planner/share/dual_arm_alm_gd_planner/environment/path.sh
+[0.090s] -- Installing: /home/dualarm/hiwin_ws/install/dual_arm_alm_gd_planner/share/dual_arm_alm_gd_planner/environment/path.dsv
+[0.090s] -- Installing: /home/dualarm/hiwin_ws/install/dual_arm_alm_gd_planner/share/dual_arm_alm_gd_planner/local_setup.bash
+[0.091s] -- Installing: /home/dualarm/hiwin_ws/install/dual_arm_alm_gd_planner/share/dual_arm_alm_gd_planner/local_setup.sh
+[0.091s] -- Installing: /home/dualarm/hiwin_ws/install/dual_arm_alm_gd_planner/share/dual_arm_alm_gd_planner/local_setup.zsh
+[0.091s] -- Installing: /home/dualarm/hiwin_ws/install/dual_arm_alm_gd_planner/share/dual_arm_alm_gd_planner/local_setup.dsv
+[0.091s] -- Installing: /home/dualarm/hiwin_ws/install/dual_arm_alm_gd_planner/share/dual_arm_alm_gd_planner/package.dsv
+[0.091s] -- Installing: /home/dualarm/hiwin_ws/install/dual_arm_alm_gd_planner/share/ament_index/resource_index/packages/dual_arm_alm_gd_planner
+[0.091s] -- Installing: /home/dualarm/hiwin_ws/install/dual_arm_alm_gd_planner/share/ament_index/resource_index/moveit_core__pluginlib__plugin/dual_arm_alm_gd_planner
+[0.091s] -- Installing: /home/dualarm/hiwin_ws/install/dual_arm_alm_gd_planner/share/dual_arm_alm_gd_planner/cmake/ament_cmake_export_libraries-extras.cmake
+[0.091s] -- Installing: /home/dualarm/hiwin_ws/install/dual_arm_alm_gd_planner/share/dual_arm_alm_gd_planner/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.091s] -- Installing: /home/dualarm/hiwin_ws/install/dual_arm_alm_gd_planner/share/dual_arm_alm_gd_planner/cmake/dual_arm_alm_gd_plannerConfig.cmake
+[0.091s] -- Installing: /home/dualarm/hiwin_ws/install/dual_arm_alm_gd_planner/share/dual_arm_alm_gd_planner/cmake/dual_arm_alm_gd_plannerConfig-version.cmake
+[0.091s] -- Installing: /home/dualarm/hiwin_ws/install/dual_arm_alm_gd_planner/share/dual_arm_alm_gd_planner/package.xml
+[0.106s] Invoked command in '/home/dualarm/hiwin_ws/build/dual_arm_alm_gd_planner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dualarm/ws_moveit2/install/moveit_configs_utils:/home/dualarm/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/dualarm/hiwin_ws/build/dual_arm_alm_gd_planner

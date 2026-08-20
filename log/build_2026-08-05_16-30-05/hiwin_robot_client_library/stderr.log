@@ -1,0 +1,60 @@
+[01m[K/home/dualarm/hiwin_ws/src/hiwin/hiwin_robot_client_library/src/commander.cpp:[m[K In member function ‘[01m[Kbool hrsdk::Commander::isRemoteMode()[m[K’:
+[01m[K/home/dualarm/hiwin_ws/src/hiwin/hiwin_robot_client_library/src/commander.cpp:145:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kdata_length[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  145 |   uint16_t [01;35m[Kdata_length[m[K = r.data[0];
+      |            [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/dualarm/hiwin_ws/src/hiwin/hiwin_robot_client_library/src/commander.cpp:[m[K In member function ‘[01m[Kint hrsdk::Commander::getServoAmpState(bool&)[m[K’:
+[01m[K/home/dualarm/hiwin_ws/src/hiwin/hiwin_robot_client_library/src/commander.cpp:227:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kdata_length[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  227 |   uint16_t [01;35m[Kdata_length[m[K = r.data[0];
+      |            [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/dualarm/hiwin_ws/src/hiwin/hiwin_robot_client_library/src/commander.cpp:[m[K In member function ‘[01m[Kint hrsdk::Commander::getActualRPM(double (&)[6])[m[K’:
+[01m[K/home/dualarm/hiwin_ws/src/hiwin/hiwin_robot_client_library/src/commander.cpp:251:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kdata_length[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  251 |   uint16_t [01;35m[Kdata_length[m[K = r.data[0];
+      |            [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/dualarm/hiwin_ws/src/hiwin/hiwin_robot_client_library/src/commander.cpp:[m[K In member function ‘[01m[Kint hrsdk::Commander::getActualCurrent(double (&)[6])[m[K’:
+[01m[K/home/dualarm/hiwin_ws/src/hiwin/hiwin_robot_client_library/src/commander.cpp:280:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kdata_length[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  280 |   uint16_t [01;35m[Kdata_length[m[K = r.data[0];
+      |            [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/dualarm/hiwin_ws/src/hiwin/hiwin_robot_client_library/src/commander.cpp:[m[K In member function ‘[01m[Kint hrsdk::Commander::getExtActualRPM(double (&)[3])[m[K’:
+[01m[K/home/dualarm/hiwin_ws/src/hiwin/hiwin_robot_client_library/src/commander.cpp:309:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kdata_length[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  309 |   uint16_t [01;35m[Kdata_length[m[K = r.data[0];
+      |            [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/dualarm/hiwin_ws/src/hiwin/hiwin_robot_client_library/src/commander.cpp:[m[K In member function ‘[01m[Kint hrsdk::Commander::getExtActualPosition(double (&)[3])[m[K’:
+[01m[K/home/dualarm/hiwin_ws/src/hiwin/hiwin_robot_client_library/src/commander.cpp:339:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kdata_length[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  339 |   uint16_t [01;35m[Kdata_length[m[K = r.data[0];
+      |            [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/dualarm/hiwin_ws/src/hiwin/hiwin_robot_client_library/src/commander.cpp:[m[K In member function ‘[01m[Kint hrsdk::Commander::getActualPosition(double (&)[6])[m[K’:
+[01m[K/home/dualarm/hiwin_ws/src/hiwin/hiwin_robot_client_library/src/commander.cpp:369:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kdata_length[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  369 |   uint16_t [01;35m[Kdata_length[m[K = r.data[0];
+      |            [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/dualarm/hiwin_ws/src/hiwin/hiwin_robot_client_library/src/commander.cpp:[m[K In member function ‘[01m[Kint hrsdk::Commander::getMotionState(hrsdk::MotionStatus&)[m[K’:
+[01m[K/home/dualarm/hiwin_ws/src/hiwin/hiwin_robot_client_library/src/commander.cpp:397:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kdata_length[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  397 |   uint16_t [01;35m[Kdata_length[m[K = r.data[0];
+      |            [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/dualarm/hiwin_ws/src/hiwin/hiwin_robot_client_library/src/commander.cpp:[m[K In member function ‘[01m[Kint hrsdk::Commander::ptpJoint(double*)[m[K’:
+[01m[K/home/dualarm/hiwin_ws/src/hiwin/hiwin_robot_client_library/src/commander.cpp:461:45:[m[K [01;35m[Kwarning: [m[Ktaking address of packed member of ‘[01m[Khrsdk::Commandformat[m[K’ may result in an unaligned pointer value [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Waddress-of-packed-member-Waddress-of-packed-member]8;;[m[K]
+  461 |   std::copy(pos_str.begin(), pos_str.end(), [01;35m[K&w.param[2][m[K);
+      |                                             [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/dualarm/hiwin_ws/src/hiwin/hiwin_robot_client_library/src/commander.cpp:[m[K In member function ‘[01m[Kint hrsdk::Commander::extPtpJoint(double*)[m[K’:
+[01m[K/home/dualarm/hiwin_ws/src/hiwin/hiwin_robot_client_library/src/commander.cpp:534:45:[m[K [01;35m[Kwarning: [m[Ktaking address of packed member of ‘[01m[Khrsdk::Commandformat[m[K’ may result in an unaligned pointer value [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Waddress-of-packed-member-Waddress-of-packed-member]8;;[m[K]
+  534 |   std::copy(pos_str.begin(), pos_str.end(), [01;35m[K&w.param[2][m[K);
+      |                                             [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/dualarm/hiwin_ws/src/hiwin/hiwin_robot_client_library/src/commander.cpp:[m[K In member function ‘[01m[Kint hrsdk::Commander::getPtpSpeed(int&)[m[K’:
+[01m[K/home/dualarm/hiwin_ws/src/hiwin/hiwin_robot_client_library/src/commander.cpp:730:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kdata_length[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  730 |   uint16_t [01;35m[Kdata_length[m[K = r.data[0];
+      |            [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/dualarm/hiwin_ws/src/hiwin/hiwin_robot_client_library/src/commander.cpp:[m[K In member function ‘[01m[Kint hrsdk::Commander::getOverrideRatio(int&)[m[K’:
+[01m[K/home/dualarm/hiwin_ws/src/hiwin/hiwin_robot_client_library/src/commander.cpp:772:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kdata_length[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  772 |   uint16_t [01;35m[Kdata_length[m[K = r.data[0];
+      |            [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/dualarm/hiwin_ws/src/hiwin/hiwin_robot_client_library/src/commander.cpp:[m[K In member function ‘[01m[Kint hrsdk::Commander::getRobotMode(hrsdk::ControlMode&)[m[K’:
+[01m[K/home/dualarm/hiwin_ws/src/hiwin/hiwin_robot_client_library/src/commander.cpp:814:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kdata_length[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  814 |   uint16_t [01;35m[Kdata_length[m[K = r.data[0];
+      |            [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/dualarm/hiwin_ws/src/hiwin/hiwin_robot_client_library/src/commander.cpp:[m[K In member function ‘[01m[Kint hrsdk::Commander::GetRobotVersion(std::string&)[m[K’:
+[01m[K/home/dualarm/hiwin_ws/src/hiwin/hiwin_robot_client_library/src/commander.cpp:838:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kdata_length[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  838 |   uint16_t [01;35m[Kdata_length[m[K = r.data[0];
+      |            [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/dualarm/hiwin_ws/src/hiwin/hiwin_robot_client_library/src/hiwin_driver.cpp:[m[K In member function ‘[01m[Kvoid hrsdk::HIWINDriver::getJointEffort(std::vector<double>&)[m[K’:
+[01m[K/home/dualarm/hiwin_ws/src/hiwin/hiwin_robot_client_library/src/hiwin_driver.cpp:272:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kextra_value[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  272 |   double [01;35m[Kextra_value[m[K[6];
+      |          [01;35m[K^~~~~~~~~~~[m[K

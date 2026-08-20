@@ -1,0 +1,2 @@
+round,total_inner,outer_iter,conv_iter,diverge_iter,c_final,maxD_final,time_ms,L,f,f_a,f_b,final_G_norm,final_d_norm
+1,294,8,8,-1,20480,0.3541531454,64.340064,436.8771136,435.1562449,574.04089,205.6466059,0.06709692076,0.1241424574

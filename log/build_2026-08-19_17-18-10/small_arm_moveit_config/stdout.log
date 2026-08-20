@@ -1,0 +1,24 @@
+-- Install configuration: "Release"
+-- Up-to-date: /home/dualarm/hiwin_ws/install/small_arm_moveit_config/share/small_arm_moveit_config/launch
+-- Up-to-date: /home/dualarm/hiwin_ws/install/small_arm_moveit_config/share/small_arm_moveit_config/launch/ra6_moveit.launch.py
+-- Up-to-date: /home/dualarm/hiwin_ws/install/small_arm_moveit_config/share/small_arm_moveit_config/config
+-- Up-to-date: /home/dualarm/hiwin_ws/install/small_arm_moveit_config/share/small_arm_moveit_config/config/joint_limits_prefixed.yaml
+-- Up-to-date: /home/dualarm/hiwin_ws/install/small_arm_moveit_config/share/small_arm_moveit_config/config/moveit.rviz
+-- Up-to-date: /home/dualarm/hiwin_ws/install/small_arm_moveit_config/share/small_arm_moveit_config/config/ra6_controllers.yaml
+-- Up-to-date: /home/dualarm/hiwin_ws/install/small_arm_moveit_config/share/small_arm_moveit_config/config/ra6_prefixed.srdf
+-- Up-to-date: /home/dualarm/hiwin_ws/install/small_arm_moveit_config/share/small_arm_moveit_config/config/moveit_controllers.yaml
+-- Up-to-date: /home/dualarm/hiwin_ws/install/small_arm_moveit_config/share/ament_index/resource_index/package_run_dependencies/small_arm_moveit_config
+-- Up-to-date: /home/dualarm/hiwin_ws/install/small_arm_moveit_config/share/ament_index/resource_index/parent_prefix_path/small_arm_moveit_config
+-- Up-to-date: /home/dualarm/hiwin_ws/install/small_arm_moveit_config/share/small_arm_moveit_config/environment/ament_prefix_path.sh
+-- Up-to-date: /home/dualarm/hiwin_ws/install/small_arm_moveit_config/share/small_arm_moveit_config/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/dualarm/hiwin_ws/install/small_arm_moveit_config/share/small_arm_moveit_config/environment/path.sh
+-- Up-to-date: /home/dualarm/hiwin_ws/install/small_arm_moveit_config/share/small_arm_moveit_config/environment/path.dsv
+-- Up-to-date: /home/dualarm/hiwin_ws/install/small_arm_moveit_config/share/small_arm_moveit_config/local_setup.bash
+-- Up-to-date: /home/dualarm/hiwin_ws/install/small_arm_moveit_config/share/small_arm_moveit_config/local_setup.sh
+-- Up-to-date: /home/dualarm/hiwin_ws/install/small_arm_moveit_config/share/small_arm_moveit_config/local_setup.zsh
+-- Up-to-date: /home/dualarm/hiwin_ws/install/small_arm_moveit_config/share/small_arm_moveit_config/local_setup.dsv
+-- Installing: /home/dualarm/hiwin_ws/install/small_arm_moveit_config/share/small_arm_moveit_config/package.dsv
+-- Up-to-date: /home/dualarm/hiwin_ws/install/small_arm_moveit_config/share/ament_index/resource_index/packages/small_arm_moveit_config
+-- Up-to-date: /home/dualarm/hiwin_ws/install/small_arm_moveit_config/share/small_arm_moveit_config/cmake/small_arm_moveit_configConfig.cmake
+-- Up-to-date: /home/dualarm/hiwin_ws/install/small_arm_moveit_config/share/small_arm_moveit_config/cmake/small_arm_moveit_configConfig-version.cmake
+-- Up-to-date: /home/dualarm/hiwin_ws/install/small_arm_moveit_config/share/small_arm_moveit_config/package.xml

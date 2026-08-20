@@ -1,0 +1,2 @@
+round,iter,L,f,f_a,f_b,penalty,maxD,G_norm,d_norm,alpha,r_stat,r_prim,r_comp,r_dual,lam_neg,kkt,lam_max,lam_min,S_max,S_min,cond_H
+1.530360275e-313,0,2.470328229e-323,2.130985014e-312,-0.8678188729,6.26835568e-310,6.26835568e-310,6.26835568e-310,6.268355673e-310,6.268355674e-310,6.268355674e-310,0,6.268355685e-310,0,1,0,0,0,0,0,0,0

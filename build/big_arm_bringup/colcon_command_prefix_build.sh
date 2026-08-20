@@ -1,0 +1,6 @@
+# generated from colcon_core/shell/template/command_prefix.sh.em
+. "/home/dualarm/hiwin_ws/install/hiwin_description/share/hiwin_description/package.sh"
+. "/home/dualarm/hiwin_ws/install/hiwin_msgs/share/hiwin_msgs/package.sh"
+. "/home/dualarm/hiwin_ws/install/hiwin_controllers/share/hiwin_controllers/package.sh"
+. "/home/dualarm/hiwin_ws/install/hiwin_driver/share/hiwin_driver/package.sh"
+. "/home/dualarm/hiwin_ws/install/hiwin_ra6_moveit_config/share/hiwin_ra6_moveit_config/package.sh"

@@ -1,0 +1,87 @@
+In file included from [01m[K/home/dualarm/hiwin_ws/src/hiwin/hiwin_ros2/hiwin_driver/src/serial_io_handler.cpp:20[m[K:
+[01m[K/home/dualarm/hiwin_ws/src/hiwin/hiwin_ros2/hiwin_driver/include/hiwin_driver/serial_io_handler.hpp:[m[K In constructor ‘[01m[KSerialIOHandler::SerialIOHandler(std::shared_ptr<ISerialProtocol>)[m[K’:
+[01m[K/home/dualarm/hiwin_ws/src/hiwin/hiwin_ros2/hiwin_driver/include/hiwin_driver/serial_io_handler.hpp:71:36:[m[K [01;35m[Kwarning: [m[K‘[01m[KSerialIOHandler::protocol_[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   71 |   std::shared_ptr<ISerialProtocol> [01;35m[Kprotocol_[m[K;
+      |                                    [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/dualarm/hiwin_ws/src/hiwin/hiwin_ros2/hiwin_driver/include/hiwin_driver/serial_io_handler.hpp:67:21:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kstd::vector<bool, std::allocator<bool> > SerialIOHandler::input_[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   67 |   std::vector<bool> [01;35m[Kinput_[m[K;
+      |                     [01;35m[K^~~~~~[m[K
+[01m[K/home/dualarm/hiwin_ws/src/hiwin/hiwin_ros2/hiwin_driver/src/serial_io_handler.cpp:22:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   22 | [01;35m[KSerialIOHandler[m[K::SerialIOHandler(std::shared_ptr<ISerialProtocol> protocol)
+      | [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/dualarm/hiwin_ws/src/hiwin/hiwin_ros2/hiwin_driver/src/gpio_interface.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::CallbackReturn hiwin_driver::HIWINGPIOHardwareInterface::on_configure(const rclcpp_lifecycle::State&)[m[K’:
+[01m[K/home/dualarm/hiwin_ws/src/hiwin/hiwin_ros2/hiwin_driver/src/gpio_interface.cpp:169:73:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprevious_state[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  169 | HIWINGPIOHardwareInterface::on_configure([01;35m[Kconst rclcpp_lifecycle::State& previous_state[m[K)
+      |                                          [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[01m[K/home/dualarm/hiwin_ws/src/hiwin/hiwin_ros2/hiwin_driver/src/gpio_interface.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::CallbackReturn hiwin_driver::HIWINGPIOHardwareInterface::on_activate(const rclcpp_lifecycle::State&)[m[K’:
+[01m[K/home/dualarm/hiwin_ws/src/hiwin/hiwin_ros2/hiwin_driver/src/gpio_interface.cpp:189:72:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprevious_state[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  189 | HIWINGPIOHardwareInterface::on_activate([01;35m[Kconst rclcpp_lifecycle::State& previous_state[m[K)
+      |                                         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[01m[K/home/dualarm/hiwin_ws/src/hiwin/hiwin_ros2/hiwin_driver/src/gpio_interface.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::CallbackReturn hiwin_driver::HIWINGPIOHardwareInterface::on_cleanup(const rclcpp_lifecycle::State&)[m[K’:
+[01m[K/home/dualarm/hiwin_ws/src/hiwin/hiwin_ros2/hiwin_driver/src/gpio_interface.cpp:199:106:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprevious_state[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  199 | hardware_interface::CallbackReturn HIWINGPIOHardwareInterface::on_cleanup([01;35m[Kconst rclcpp_lifecycle::State& previous_state[m[K)
+      |                                                                           [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[01m[K/home/dualarm/hiwin_ws/src/hiwin/hiwin_ros2/hiwin_driver/src/gpio_interface.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type hiwin_driver::HIWINGPIOHardwareInterface::read(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[01m[K/home/dualarm/hiwin_ws/src/hiwin/hiwin_ros2/hiwin_driver/src/gpio_interface.cpp:228:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<double, std::allocator<double> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  228 |     for (int i = 0; [01;35m[Ki < digital_input_.size()[m[K; i++)
+      |                     [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/dualarm/hiwin_ws/src/hiwin/hiwin_ros2/hiwin_driver/src/gpio_interface.cpp:219:86:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktime[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  219 | hardware_interface::return_type HIWINGPIOHardwareInterface::read([01;35m[Kconst rclcpp::Time& time[m[K,
+      |                                                                  [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/dualarm/hiwin_ws/src/hiwin/hiwin_ros2/hiwin_driver/src/gpio_interface.cpp:220:90:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kperiod[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  220 |                                                                  [01;35m[Kconst rclcpp::Duration& period[m[K)
+      |                                                                  [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/home/dualarm/hiwin_ws/src/hiwin/hiwin_ros2/hiwin_driver/src/gpio_interface.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type hiwin_driver::HIWINGPIOHardwareInterface::write(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[01m[K/home/dualarm/hiwin_ws/src/hiwin/hiwin_ros2/hiwin_driver/src/gpio_interface.cpp:261:21:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<double, std::allocator<double> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  261 |   for (int i = 0; [01;35m[Ki < digital_output_.size()[m[K; i++)
+      |                   [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/dualarm/hiwin_ws/src/hiwin/hiwin_ros2/hiwin_driver/src/gpio_interface.cpp:249:87:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktime[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  249 | hardware_interface::return_type HIWINGPIOHardwareInterface::write([01;35m[Kconst rclcpp::Time& time[m[K,
+      |                                                                   [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/dualarm/hiwin_ws/src/hiwin/hiwin_ros2/hiwin_driver/src/gpio_interface.cpp:250:91:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kperiod[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  250 |                                                                   [01;35m[Kconst rclcpp::Duration& period[m[K)
+      |                                                                   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/home/dualarm/hiwin_ws/src/hiwin/hiwin_ros2/hiwin_driver/src/gpio_interface.cpp:[m[K In member function ‘[01m[Kvoid hiwin_driver::HIWINGPIOHardwareInterface::polling_loop()[m[K’:
+[01m[K/home/dualarm/hiwin_ws/src/hiwin/hiwin_ros2/hiwin_driver/src/gpio_interface.cpp:312:25:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<unsigned char, std::allocator<unsigned char> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  312 |       for (int i = 0; [01;35m[Ki < digital_out_cache_.size()[m[K; i++)
+      |                       [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/dualarm/hiwin_ws/src/hiwin/hiwin_ros2/hiwin_driver/src/gpio_interface.cpp:326:25:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<unsigned char, std::allocator<unsigned char> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  326 |       for (int i = 0; [01;35m[Ki < digital_in_cache_.size()[m[K; i++)
+      |                       [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/dualarm/hiwin_ws/src/hiwin/hiwin_ros2/hiwin_driver/src/hardware_interface.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::CallbackReturn hiwin_driver::HIWINPositionHardwareInterface::on_configure(const rclcpp_lifecycle::State&)[m[K’:
+[01m[K/home/dualarm/hiwin_ws/src/hiwin/hiwin_ros2/hiwin_driver/src/hardware_interface.cpp:124:77:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprevious_state[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  124 | HIWINPositionHardwareInterface::on_configure([01;35m[Kconst rclcpp_lifecycle::State& previous_state[m[K)
+      |                                              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[01m[K/home/dualarm/hiwin_ws/src/hiwin/hiwin_ros2/hiwin_driver/src/hardware_interface.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::CallbackReturn hiwin_driver::HIWINPositionHardwareInterface::on_activate(const rclcpp_lifecycle::State&)[m[K’:
+[01m[K/home/dualarm/hiwin_ws/src/hiwin/hiwin_ros2/hiwin_driver/src/hardware_interface.cpp:137:76:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprevious_state[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  137 | HIWINPositionHardwareInterface::on_activate([01;35m[Kconst rclcpp_lifecycle::State& previous_state[m[K)
+      |                                             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[01m[K/home/dualarm/hiwin_ws/src/hiwin/hiwin_ros2/hiwin_driver/src/hardware_interface.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::CallbackReturn hiwin_driver::HIWINPositionHardwareInterface::on_cleanup(const rclcpp_lifecycle::State&)[m[K’:
+[01m[K/home/dualarm/hiwin_ws/src/hiwin/hiwin_ros2/hiwin_driver/src/hardware_interface.cpp:144:75:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprevious_state[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  144 | HIWINPositionHardwareInterface::on_cleanup([01;35m[Kconst rclcpp_lifecycle::State& previous_state[m[K)
+      |                                            [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[01m[K/home/dualarm/hiwin_ws/src/hiwin/hiwin_ros2/hiwin_driver/src/hardware_interface.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type hiwin_driver::HIWINPositionHardwareInterface::prepare_command_mode_switch(const std::vector<std::__cxx11::basic_string<char> >&, const std::vector<std::__cxx11::basic_string<char> >&)[m[K’:
+[01m[K/home/dualarm/hiwin_ws/src/hiwin/hiwin_ros2/hiwin_driver/src/hardware_interface.cpp:158:37:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kstart_interfaces[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  158 |     [01;35m[Kconst std::vector<std::string>& start_interfaces[m[K, const std::vector<std::string>& stop_interfaces)
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/dualarm/hiwin_ws/src/hiwin/hiwin_ros2/hiwin_driver/src/hardware_interface.cpp:158:87:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kstop_interfaces[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  158 |     const std::vector<std::string>& start_interfaces, [01;35m[Kconst std::vector<std::string>& stop_interfaces[m[K)
+      |                                                       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~[m[K
+[01m[K/home/dualarm/hiwin_ws/src/hiwin/hiwin_ros2/hiwin_driver/src/hardware_interface.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type hiwin_driver::HIWINPositionHardwareInterface::perform_command_mode_switch(const std::vector<std::__cxx11::basic_string<char> >&, const std::vector<std::__cxx11::basic_string<char> >&)[m[K’:
+[01m[K/home/dualarm/hiwin_ws/src/hiwin/hiwin_ros2/hiwin_driver/src/hardware_interface.cpp:167:37:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kstart_interfaces[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  167 |     [01;35m[Kconst std::vector<std::string>& start_interfaces[m[K, const std::vector<std::string>& stop_interfaces)
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/dualarm/hiwin_ws/src/hiwin/hiwin_ros2/hiwin_driver/src/hardware_interface.cpp:167:87:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kstop_interfaces[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  167 |     const std::vector<std::string>& start_interfaces, [01;35m[Kconst std::vector<std::string>& stop_interfaces[m[K)
+      |                                                       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~[m[K
+[01m[K/home/dualarm/hiwin_ws/src/hiwin/hiwin_ros2/hiwin_driver/src/hardware_interface.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type hiwin_driver::HIWINPositionHardwareInterface::read(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[01m[K/home/dualarm/hiwin_ws/src/hiwin/hiwin_ros2/hiwin_driver/src/hardware_interface.cpp:177:90:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktime[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  177 | hardware_interface::return_type HIWINPositionHardwareInterface::read([01;35m[Kconst rclcpp::Time& time[m[K,
+      |                                                                      [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/dualarm/hiwin_ws/src/hiwin/hiwin_ros2/hiwin_driver/src/hardware_interface.cpp:178:94:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kperiod[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  178 |                                                                      [01;35m[Kconst rclcpp::Duration& period[m[K)
+      |                                                                      [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/home/dualarm/hiwin_ws/src/hiwin/hiwin_ros2/hiwin_driver/src/hardware_interface.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type hiwin_driver::HIWINPositionHardwareInterface::write(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[01m[K/home/dualarm/hiwin_ws/src/hiwin/hiwin_ros2/hiwin_driver/src/hardware_interface.cpp:186:95:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kperiod[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  186 |                                                                       [01;35m[Kconst rclcpp::Duration& period[m[K)
+      |                                                                       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K

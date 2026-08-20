@@ -1,0 +1,5 @@
+source;share/dual_arm_execute_panel/local_setup.bash
+source;share/dual_arm_execute_panel/local_setup.dsv
+source;share/dual_arm_execute_panel/local_setup.ps1
+source;share/dual_arm_execute_panel/local_setup.sh
+source;share/dual_arm_execute_panel/local_setup.zsh

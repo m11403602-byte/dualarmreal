@@ -1,0 +1,348 @@
+[0.014s] Invoking command in '/home/dualarm/hiwin_ws/build/hiwin_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dualarm/ws_moveit2/install/moveit_configs_utils:/home/dualarm/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake /home/dualarm/hiwin_ws/src/hiwin/hiwin_ros2/hiwin_msgs -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/dualarm/hiwin_ws/install/hiwin_msgs
+[0.060s] -- The C compiler identification is GNU 11.4.0
+[0.103s] -- The CXX compiler identification is GNU 11.4.0
+[0.108s] -- Detecting C compiler ABI info
+[0.165s] -- Detecting C compiler ABI info - done
+[0.171s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.171s] -- Detecting C compile features
+[0.171s] -- Detecting C compile features - done
+[0.174s] -- Detecting CXX compiler ABI info
+[0.240s] -- Detecting CXX compiler ABI info - done
+[0.246s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.246s] -- Detecting CXX compile features
+[0.246s] -- Detecting CXX compile features - done
+[0.251s] -- Found geometry_msgs: 4.9.1 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.372s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.532s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.541s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.553s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.570s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.593s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.634s] -- Found rosidl_default_generators: 1.2.1 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.891s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.221s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.348s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.366s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.370s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.392s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.393s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.393s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.393s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.409s] -- Found PythonExtra: .so  
+[1.564s] -- Configuring done
+[1.592s] -- Generating done
+[1.602s] -- Build files have been written to: /home/dualarm/hiwin_ws/build/hiwin_msgs
+[1.608s] Invoked command in '/home/dualarm/hiwin_ws/build/hiwin_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dualarm/ws_moveit2/install/moveit_configs_utils:/home/dualarm/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake /home/dualarm/hiwin_ws/src/hiwin/hiwin_ros2/hiwin_msgs -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/dualarm/hiwin_ws/install/hiwin_msgs
+[1.609s] Invoking command in '/home/dualarm/hiwin_ws/build/hiwin_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dualarm/ws_moveit2/install/moveit_configs_utils:/home/dualarm/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/dualarm/hiwin_ws/build/hiwin_msgs -- -j16 -l16
+[1.645s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.655s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.655s] [  5%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[1.664s] [  5%] Built target ament_cmake_python_copy_hiwin_msgs
+[1.866s] running egg_info
+[1.867s] creating hiwin_msgs.egg-info
+[1.867s] writing hiwin_msgs.egg-info/PKG-INFO
+[1.867s] writing dependency_links to hiwin_msgs.egg-info/dependency_links.txt
+[1.867s] writing top-level names to hiwin_msgs.egg-info/top_level.txt
+[1.867s] writing manifest file 'hiwin_msgs.egg-info/SOURCES.txt'
+[1.868s] reading manifest file 'hiwin_msgs.egg-info/SOURCES.txt'
+[1.869s] writing manifest file 'hiwin_msgs.egg-info/SOURCES.txt'
+[1.889s] [  5%] Built target ament_cmake_python_build_hiwin_msgs_egg
+[1.916s] [  5%] Built target hiwin_msgs__rs
+[2.041s] [ 12%] [32mBuilding C object CMakeFiles/hiwin_msgs__rosidl_generator_c.dir/rosidl_generator_c/hiwin_msgs/msg/detail/system_io_states__functions.c.o[0m
+[2.041s] [ 12%] [32mBuilding C object CMakeFiles/hiwin_msgs__rosidl_generator_c.dir/rosidl_generator_c/hiwin_msgs/msg/detail/digital_io_states__functions.c.o[0m
+[2.041s] [ 12%] [32mBuilding C object CMakeFiles/hiwin_msgs__rosidl_generator_c.dir/rosidl_generator_c/hiwin_msgs/srv/detail/set_io__functions.c.o[0m
+[2.042s] [ 12%] [32mBuilding C object CMakeFiles/hiwin_msgs__rosidl_generator_c.dir/rosidl_generator_c/hiwin_msgs/srv/detail/reset_joint_fault__functions.c.o[0m
+[2.080s] [ 12%] Built target hiwin_msgs__cpp
+[2.091s] [ 17%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.091s] [ 17%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.091s] [ 17%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.154s] [ 19%] [32m[1mLinking C shared library libhiwin_msgs__rosidl_generator_c.so[0m
+[2.185s] [ 19%] Built target hiwin_msgs__rosidl_generator_c
+[2.196s] [ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[2.196s] [ 25%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[2.196s] [ 25%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[2.375s] [ 26%] [32mBuilding CXX object CMakeFiles/hiwin_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/hiwin_msgs/msg/system_io_states__type_support.cpp.o[0m
+[2.378s] [ 28%] [32mBuilding CXX object CMakeFiles/hiwin_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/hiwin_msgs/msg/digital_io_states__type_support.cpp.o[0m
+[2.379s] [ 30%] [32mBuilding CXX object CMakeFiles/hiwin_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/hiwin_msgs/srv/reset_joint_fault__type_support.cpp.o[0m
+[2.379s] [ 32%] [32mBuilding CXX object CMakeFiles/hiwin_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/hiwin_msgs/srv/set_io__type_support.cpp.o[0m
+[2.434s] [ 39%] [32mBuilding CXX object CMakeFiles/hiwin_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/hiwin_msgs/srv/detail/reset_joint_fault__type_support.cpp.o[0m
+[2.434s] [ 39%] [32mBuilding CXX object CMakeFiles/hiwin_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/hiwin_msgs/msg/detail/digital_io_states__type_support.cpp.o[0m
+[2.434s] [ 39%] [32mBuilding CXX object CMakeFiles/hiwin_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/hiwin_msgs/msg/detail/system_io_states__type_support.cpp.o[0m
+[2.434s] [ 39%] [32mBuilding CXX object CMakeFiles/hiwin_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/hiwin_msgs/srv/detail/set_io__type_support.cpp.o[0m
+[2.473s] [ 46%] [32mBuilding CXX object CMakeFiles/hiwin_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hiwin_msgs/msg/detail/dds_fastrtps/system_io_states__type_support.cpp.o[0m
+[2.473s] [ 46%] [32mBuilding CXX object CMakeFiles/hiwin_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hiwin_msgs/srv/detail/dds_fastrtps/reset_joint_fault__type_support.cpp.o[0m
+[2.473s] [ 46%] [32mBuilding CXX object CMakeFiles/hiwin_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hiwin_msgs/msg/detail/dds_fastrtps/digital_io_states__type_support.cpp.o[0m
+[2.473s] [ 46%] [32mBuilding CXX object CMakeFiles/hiwin_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hiwin_msgs/srv/detail/dds_fastrtps/set_io__type_support.cpp.o[0m
+[2.536s] [ 48%] [32mBuilding CXX object CMakeFiles/hiwin_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/hiwin_msgs/msg/system_io_states__type_support.cpp.o[0m
+[2.549s] [ 50%] [32mBuilding CXX object CMakeFiles/hiwin_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/hiwin_msgs/msg/digital_io_states__type_support.cpp.o[0m
+[2.578s] [ 51%] [32mBuilding CXX object CMakeFiles/hiwin_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/hiwin_msgs/srv/set_io__type_support.cpp.o[0m
+[2.631s] [ 53%] [32mBuilding CXX object CMakeFiles/hiwin_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/hiwin_msgs/srv/reset_joint_fault__type_support.cpp.o[0m
+[2.679s] [ 55%] [32m[1mLinking CXX shared library libhiwin_msgs__rosidl_typesupport_c.so[0m
+[2.696s] [ 58%] [32mBuilding C object CMakeFiles/hiwin_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hiwin_msgs/msg/detail/digital_io_states__type_support.c.o[0m
+[2.696s] [ 58%] [32mBuilding C object CMakeFiles/hiwin_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hiwin_msgs/msg/detail/system_io_states__type_support.c.o[0m
+[2.703s] [ 60%] [32mBuilding C object CMakeFiles/hiwin_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hiwin_msgs/srv/detail/set_io__type_support.c.o[0m
+[2.727s] [ 62%] [32mBuilding C object CMakeFiles/hiwin_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hiwin_msgs/srv/detail/reset_joint_fault__type_support.c.o[0m
+[2.727s] [ 67%] [32mBuilding CXX object CMakeFiles/hiwin_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hiwin_msgs/msg/detail/digital_io_states__type_support_c.cpp.o[0m
+[2.729s] [ 66%] [32m[1mLinking CXX shared library libhiwin_msgs__rosidl_typesupport_cpp.so[0m
+[2.729s] [ 66%] [32mBuilding CXX object CMakeFiles/hiwin_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hiwin_msgs/msg/detail/system_io_states__type_support_c.cpp.o[0m
+[2.740s] [ 67%] Built target hiwin_msgs__rosidl_typesupport_c
+[2.757s] [ 69%] [32mBuilding CXX object CMakeFiles/hiwin_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hiwin_msgs/srv/detail/set_io__type_support_c.cpp.o[0m
+[2.758s] [ 71%] [32mBuilding CXX object CMakeFiles/hiwin_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hiwin_msgs/srv/detail/reset_joint_fault__type_support_c.cpp.o[0m
+[2.790s] [ 73%] [32m[1mLinking C shared library libhiwin_msgs__rosidl_typesupport_introspection_c.so[0m
+[2.792s] [ 73%] Built target hiwin_msgs__rosidl_typesupport_cpp
+[2.839s] [ 73%] Built target hiwin_msgs__rosidl_typesupport_introspection_c
+[3.053s] [ 75%] [32m[1mLinking CXX shared library libhiwin_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[3.083s] [ 76%] [32m[1mLinking CXX shared library libhiwin_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[3.115s] [ 76%] Built target hiwin_msgs__rosidl_typesupport_fastrtps_cpp
+[3.143s] [ 76%] Built target hiwin_msgs__rosidl_typesupport_introspection_cpp
+[3.164s] [ 78%] [32m[1mLinking CXX shared library libhiwin_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[3.216s] [ 78%] Built target hiwin_msgs__rosidl_typesupport_fastrtps_c
+[3.236s] [ 78%] Built target hiwin_msgs
+[3.256s] [ 80%] [34m[1mGenerating Python code for ROS interfaces[0m
+[3.855s] [ 80%] Built target hiwin_msgs__py
+[3.877s] [ 85%] [32mBuilding C object CMakeFiles/hiwin_msgs__rosidl_generator_py.dir/rosidl_generator_py/hiwin_msgs/srv/_set_io_s.c.o[0m
+[3.877s] [ 85%] [32mBuilding C object CMakeFiles/hiwin_msgs__rosidl_generator_py.dir/rosidl_generator_py/hiwin_msgs/msg/_system_io_states_s.c.o[0m
+[3.877s] [ 85%] [32mBuilding C object CMakeFiles/hiwin_msgs__rosidl_generator_py.dir/rosidl_generator_py/hiwin_msgs/msg/_digital_io_states_s.c.o[0m
+[3.877s] [ 87%] [32mBuilding C object CMakeFiles/hiwin_msgs__rosidl_generator_py.dir/rosidl_generator_py/hiwin_msgs/srv/_reset_joint_fault_s.c.o[0m
+[3.994s] [ 89%] [32m[1mLinking C shared library rosidl_generator_py/hiwin_msgs/libhiwin_msgs__rosidl_generator_py.so[0m
+[4.031s] [ 89%] Built target hiwin_msgs__rosidl_generator_py
+[4.053s] [ 94%] [32mBuilding C object CMakeFiles/hiwin_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/hiwin_msgs/_hiwin_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[4.053s] [ 94%] [32mBuilding C object CMakeFiles/hiwin_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/hiwin_msgs/_hiwin_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[4.053s] [ 94%] [32mBuilding C object CMakeFiles/hiwin_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/hiwin_msgs/_hiwin_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[4.186s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/hiwin_msgs/hiwin_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.191s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/hiwin_msgs/hiwin_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.195s] [100%] [32m[1mLinking C shared library rosidl_generator_py/hiwin_msgs/hiwin_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.223s] [100%] Built target hiwin_msgs__rosidl_typesupport_introspection_c__pyext
+[4.227s] [100%] Built target hiwin_msgs__rosidl_typesupport_c__pyext
+[4.230s] [100%] Built target hiwin_msgs__rosidl_typesupport_fastrtps_c__pyext
+[4.241s] Invoked command in '/home/dualarm/hiwin_ws/build/hiwin_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dualarm/ws_moveit2/install/moveit_configs_utils:/home/dualarm/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/dualarm/hiwin_ws/build/hiwin_msgs -- -j16 -l16
+[4.243s] Invoking command in '/home/dualarm/hiwin_ws/build/hiwin_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dualarm/ws_moveit2/install/moveit_configs_utils:/home/dualarm/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/dualarm/hiwin_ws/build/hiwin_msgs
+[4.250s] -- Install configuration: "Release"
+[4.250s] -- Installing: /home/dualarm/hiwin_ws/install/hiwin_msgs/share/ament_index/resource_index/rosidl_interfaces/hiwin_msgs
+[4.250s] -- Installing: /home/dualarm/hiwin_ws/install/hiwin_msgs/include/hiwin_msgs/hiwin_msgs
+[4.251s] -- Installing: /home/dualarm/hiwin_ws/install/hiwin_msgs/include/hiwin_msgs/hiwin_msgs/srv
+[4.251s] -- Installing: /home/dualarm/hiwin_ws/install/hiwin_msgs/include/hiwin_msgs/hiwin_msgs/srv/reset_joint_fault.h
+[4.251s] -- Installing: /home/dualarm/hiwin_ws/install/hiwin_msgs/include/hiwin_msgs/hiwin_msgs/srv/detail
+[4.251s] -- Installing: /home/dualarm/hiwin_ws/install/hiwin_msgs/include/hiwin_msgs/hiwin_msgs/srv/detail/set_io__struct.h
+[4.251s] -- Installing: /home/dualarm/hiwin_ws/install/hiwin_msgs/include/hiwin_msgs/hiwin_msgs/srv/detail/set_io__functions.c
+[4.251s] -- Installing: /home/dualarm/hiwin_ws/install/hiwin_msgs/include/hiwin_msgs/hiwin_msgs/srv/detail/reset_joint_fault__struct.h
+[4.251s] -- Installing: /home/dualarm/hiwin_ws/install/hiwin_msgs/include/hiwin_msgs/hiwin_msgs/srv/detail/set_io__type_support.h
+[4.251s] -- Installing: /home/dualarm/hiwin_ws/install/hiwin_msgs/include/hiwin_msgs/hiwin_msgs/srv/detail/reset_joint_fault__type_support.h
+[4.251s] -- Installing: /home/dualarm/hiwin_ws/install/hiwin_msgs/include/hiwin_msgs/hiwin_msgs/srv/detail/set_io__functions.h
+[4.252s] -- Installing: /home/dualarm/hiwin_ws/install/hiwin_msgs/include/hiwin_msgs/hiwin_msgs/srv/detail/reset_joint_fault__functions.h
+[4.252s] -- Installing: /home/dualarm/hiwin_ws/install/hiwin_msgs/include/hiwin_msgs/hiwin_msgs/srv/detail/reset_joint_fault__functions.c
+[4.252s] -- Installing: /home/dualarm/hiwin_ws/install/hiwin_msgs/include/hiwin_msgs/hiwin_msgs/srv/set_io.h
+[4.252s] -- Installing: /home/dualarm/hiwin_ws/install/hiwin_msgs/include/hiwin_msgs/hiwin_msgs/msg
+[4.252s] -- Installing: /home/dualarm/hiwin_ws/install/hiwin_msgs/include/hiwin_msgs/hiwin_msgs/msg/digital_io_states.h
+[4.252s] -- Installing: /home/dualarm/hiwin_ws/install/hiwin_msgs/include/hiwin_msgs/hiwin_msgs/msg/detail
+[4.252s] -- Installing: /home/dualarm/hiwin_ws/install/hiwin_msgs/include/hiwin_msgs/hiwin_msgs/msg/detail/digital_io_states__functions.h
+[4.252s] -- Installing: /home/dualarm/hiwin_ws/install/hiwin_msgs/include/hiwin_msgs/hiwin_msgs/msg/detail/system_io_states__type_support.h
+[4.252s] -- Installing: /home/dualarm/hiwin_ws/install/hiwin_msgs/include/hiwin_msgs/hiwin_msgs/msg/detail/system_io_states__struct.h
+[4.252s] -- Installing: /home/dualarm/hiwin_ws/install/hiwin_msgs/include/hiwin_msgs/hiwin_msgs/msg/detail/digital_io_states__struct.h
+[4.252s] -- Installing: /home/dualarm/hiwin_ws/install/hiwin_msgs/include/hiwin_msgs/hiwin_msgs/msg/detail/digital_io_states__functions.c
+[4.253s] -- Installing: /home/dualarm/hiwin_ws/install/hiwin_msgs/include/hiwin_msgs/hiwin_msgs/msg/detail/system_io_states__functions.h
+[4.253s] -- Installing: /home/dualarm/hiwin_ws/install/hiwin_msgs/include/hiwin_msgs/hiwin_msgs/msg/detail/system_io_states__functions.c
+[4.253s] -- Installing: /home/dualarm/hiwin_ws/install/hiwin_msgs/include/hiwin_msgs/hiwin_msgs/msg/detail/digital_io_states__type_support.h
+[4.253s] -- Installing: /home/dualarm/hiwin_ws/install/hiwin_msgs/include/hiwin_msgs/hiwin_msgs/msg/rosidl_generator_c__visibility_control.h
+[4.253s] -- Installing: /home/dualarm/hiwin_ws/install/hiwin_msgs/include/hiwin_msgs/hiwin_msgs/msg/system_io_states.h
+[4.253s] -- Installing: /home/dualarm/hiwin_ws/install/hiwin_msgs/share/hiwin_msgs/environment/library_path.sh
+[4.253s] -- Installing: /home/dualarm/hiwin_ws/install/hiwin_msgs/share/hiwin_msgs/environment/library_path.dsv
+[4.253s] -- Installing: /home/dualarm/hiwin_ws/install/hiwin_msgs/lib/libhiwin_msgs__rosidl_generator_c.so
+[4.253s] -- Set runtime path of "/home/dualarm/hiwin_ws/install/hiwin_msgs/lib/libhiwin_msgs__rosidl_generator_c.so" to ""
+[4.253s] -- Up-to-date: /home/dualarm/hiwin_ws/install/hiwin_msgs/include/hiwin_msgs/hiwin_msgs
+[4.254s] -- Up-to-date: /home/dualarm/hiwin_ws/install/hiwin_msgs/include/hiwin_msgs/hiwin_msgs/srv
+[4.254s] -- Up-to-date: /home/dualarm/hiwin_ws/install/hiwin_msgs/include/hiwin_msgs/hiwin_msgs/srv/detail
+[4.254s] -- Installing: /home/dualarm/hiwin_ws/install/hiwin_msgs/include/hiwin_msgs/hiwin_msgs/srv/detail/reset_joint_fault__rosidl_typesupport_fastrtps_c.h
+[4.254s] -- Installing: /home/dualarm/hiwin_ws/install/hiwin_msgs/include/hiwin_msgs/hiwin_msgs/srv/detail/set_io__rosidl_typesupport_fastrtps_c.h
+[4.254s] -- Up-to-date: /home/dualarm/hiwin_ws/install/hiwin_msgs/include/hiwin_msgs/hiwin_msgs/msg
+[4.254s] -- Up-to-date: /home/dualarm/hiwin_ws/install/hiwin_msgs/include/hiwin_msgs/hiwin_msgs/msg/detail
+[4.254s] -- Installing: /home/dualarm/hiwin_ws/install/hiwin_msgs/include/hiwin_msgs/hiwin_msgs/msg/detail/digital_io_states__rosidl_typesupport_fastrtps_c.h
+[4.254s] -- Installing: /home/dualarm/hiwin_ws/install/hiwin_msgs/include/hiwin_msgs/hiwin_msgs/msg/detail/system_io_states__rosidl_typesupport_fastrtps_c.h
+[4.254s] -- Installing: /home/dualarm/hiwin_ws/install/hiwin_msgs/include/hiwin_msgs/hiwin_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[4.254s] -- Installing: /home/dualarm/hiwin_ws/install/hiwin_msgs/lib/libhiwin_msgs__rosidl_typesupport_fastrtps_c.so
+[4.255s] -- Set runtime path of "/home/dualarm/hiwin_ws/install/hiwin_msgs/lib/libhiwin_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[4.255s] -- Up-to-date: /home/dualarm/hiwin_ws/install/hiwin_msgs/include/hiwin_msgs/hiwin_msgs
+[4.255s] -- Up-to-date: /home/dualarm/hiwin_ws/install/hiwin_msgs/include/hiwin_msgs/hiwin_msgs/srv
+[4.255s] -- Up-to-date: /home/dualarm/hiwin_ws/install/hiwin_msgs/include/hiwin_msgs/hiwin_msgs/srv/detail
+[4.255s] -- Installing: /home/dualarm/hiwin_ws/install/hiwin_msgs/include/hiwin_msgs/hiwin_msgs/srv/detail/reset_joint_fault__builder.hpp
+[4.255s] -- Installing: /home/dualarm/hiwin_ws/install/hiwin_msgs/include/hiwin_msgs/hiwin_msgs/srv/detail/reset_joint_fault__struct.hpp
+[4.255s] -- Installing: /home/dualarm/hiwin_ws/install/hiwin_msgs/include/hiwin_msgs/hiwin_msgs/srv/detail/set_io__builder.hpp
+[4.255s] -- Installing: /home/dualarm/hiwin_ws/install/hiwin_msgs/include/hiwin_msgs/hiwin_msgs/srv/detail/set_io__traits.hpp
+[4.255s] -- Installing: /home/dualarm/hiwin_ws/install/hiwin_msgs/include/hiwin_msgs/hiwin_msgs/srv/detail/set_io__type_support.hpp
+[4.255s] -- Installing: /home/dualarm/hiwin_ws/install/hiwin_msgs/include/hiwin_msgs/hiwin_msgs/srv/detail/reset_joint_fault__type_support.hpp
+[4.255s] -- Installing: /home/dualarm/hiwin_ws/install/hiwin_msgs/include/hiwin_msgs/hiwin_msgs/srv/detail/reset_joint_fault__traits.hpp
+[4.256s] -- Installing: /home/dualarm/hiwin_ws/install/hiwin_msgs/include/hiwin_msgs/hiwin_msgs/srv/detail/set_io__struct.hpp
+[4.256s] -- Installing: /home/dualarm/hiwin_ws/install/hiwin_msgs/include/hiwin_msgs/hiwin_msgs/srv/reset_joint_fault.hpp
+[4.256s] -- Installing: /home/dualarm/hiwin_ws/install/hiwin_msgs/include/hiwin_msgs/hiwin_msgs/srv/set_io.hpp
+[4.256s] -- Up-to-date: /home/dualarm/hiwin_ws/install/hiwin_msgs/include/hiwin_msgs/hiwin_msgs/msg
+[4.256s] -- Installing: /home/dualarm/hiwin_ws/install/hiwin_msgs/include/hiwin_msgs/hiwin_msgs/msg/system_io_states.hpp
+[4.256s] -- Up-to-date: /home/dualarm/hiwin_ws/install/hiwin_msgs/include/hiwin_msgs/hiwin_msgs/msg/detail
+[4.256s] -- Installing: /home/dualarm/hiwin_ws/install/hiwin_msgs/include/hiwin_msgs/hiwin_msgs/msg/detail/system_io_states__traits.hpp
+[4.256s] -- Installing: /home/dualarm/hiwin_ws/install/hiwin_msgs/include/hiwin_msgs/hiwin_msgs/msg/detail/system_io_states__struct.hpp
+[4.256s] -- Installing: /home/dualarm/hiwin_ws/install/hiwin_msgs/include/hiwin_msgs/hiwin_msgs/msg/detail/system_io_states__builder.hpp
+[4.257s] -- Installing: /home/dualarm/hiwin_ws/install/hiwin_msgs/include/hiwin_msgs/hiwin_msgs/msg/detail/digital_io_states__builder.hpp
+[4.257s] -- Installing: /home/dualarm/hiwin_ws/install/hiwin_msgs/include/hiwin_msgs/hiwin_msgs/msg/detail/system_io_states__type_support.hpp
+[4.257s] -- Installing: /home/dualarm/hiwin_ws/install/hiwin_msgs/include/hiwin_msgs/hiwin_msgs/msg/detail/digital_io_states__struct.hpp
+[4.257s] -- Installing: /home/dualarm/hiwin_ws/install/hiwin_msgs/include/hiwin_msgs/hiwin_msgs/msg/detail/digital_io_states__type_support.hpp
+[4.257s] -- Installing: /home/dualarm/hiwin_ws/install/hiwin_msgs/include/hiwin_msgs/hiwin_msgs/msg/detail/digital_io_states__traits.hpp
+[4.257s] -- Installing: /home/dualarm/hiwin_ws/install/hiwin_msgs/include/hiwin_msgs/hiwin_msgs/msg/digital_io_states.hpp
+[4.257s] -- Installing: /home/dualarm/hiwin_ws/install/hiwin_msgs/include/hiwin_msgs/hiwin_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[4.257s] -- Up-to-date: /home/dualarm/hiwin_ws/install/hiwin_msgs/include/hiwin_msgs/hiwin_msgs
+[4.257s] -- Up-to-date: /home/dualarm/hiwin_ws/install/hiwin_msgs/include/hiwin_msgs/hiwin_msgs/srv
+[4.257s] -- Up-to-date: /home/dualarm/hiwin_ws/install/hiwin_msgs/include/hiwin_msgs/hiwin_msgs/srv/detail
+[4.257s] -- Installing: /home/dualarm/hiwin_ws/install/hiwin_msgs/include/hiwin_msgs/hiwin_msgs/srv/detail/dds_fastrtps
+[4.258s] -- Installing: /home/dualarm/hiwin_ws/install/hiwin_msgs/include/hiwin_msgs/hiwin_msgs/srv/detail/set_io__rosidl_typesupport_fastrtps_cpp.hpp
+[4.258s] -- Installing: /home/dualarm/hiwin_ws/install/hiwin_msgs/include/hiwin_msgs/hiwin_msgs/srv/detail/reset_joint_fault__rosidl_typesupport_fastrtps_cpp.hpp
+[4.258s] -- Up-to-date: /home/dualarm/hiwin_ws/install/hiwin_msgs/include/hiwin_msgs/hiwin_msgs/msg
+[4.258s] -- Installing: /home/dualarm/hiwin_ws/install/hiwin_msgs/include/hiwin_msgs/hiwin_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[4.258s] -- Up-to-date: /home/dualarm/hiwin_ws/install/hiwin_msgs/include/hiwin_msgs/hiwin_msgs/msg/detail
+[4.258s] -- Installing: /home/dualarm/hiwin_ws/install/hiwin_msgs/include/hiwin_msgs/hiwin_msgs/msg/detail/dds_fastrtps
+[4.258s] -- Installing: /home/dualarm/hiwin_ws/install/hiwin_msgs/include/hiwin_msgs/hiwin_msgs/msg/detail/digital_io_states__rosidl_typesupport_fastrtps_cpp.hpp
+[4.258s] -- Installing: /home/dualarm/hiwin_ws/install/hiwin_msgs/include/hiwin_msgs/hiwin_msgs/msg/detail/system_io_states__rosidl_typesupport_fastrtps_cpp.hpp
+[4.258s] -- Installing: /home/dualarm/hiwin_ws/install/hiwin_msgs/lib/libhiwin_msgs__rosidl_typesupport_fastrtps_cpp.so
+[4.258s] -- Set runtime path of "/home/dualarm/hiwin_ws/install/hiwin_msgs/lib/libhiwin_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[4.259s] -- Up-to-date: /home/dualarm/hiwin_ws/install/hiwin_msgs/include/hiwin_msgs/hiwin_msgs
+[4.259s] -- Up-to-date: /home/dualarm/hiwin_ws/install/hiwin_msgs/include/hiwin_msgs/hiwin_msgs/srv
+[4.259s] -- Up-to-date: /home/dualarm/hiwin_ws/install/hiwin_msgs/include/hiwin_msgs/hiwin_msgs/srv/detail
+[4.259s] -- Installing: /home/dualarm/hiwin_ws/install/hiwin_msgs/include/hiwin_msgs/hiwin_msgs/srv/detail/set_io__type_support.c
+[4.259s] -- Installing: /home/dualarm/hiwin_ws/install/hiwin_msgs/include/hiwin_msgs/hiwin_msgs/srv/detail/reset_joint_fault__type_support.c
+[4.259s] -- Installing: /home/dualarm/hiwin_ws/install/hiwin_msgs/include/hiwin_msgs/hiwin_msgs/srv/detail/reset_joint_fault__rosidl_typesupport_introspection_c.h
+[4.259s] -- Installing: /home/dualarm/hiwin_ws/install/hiwin_msgs/include/hiwin_msgs/hiwin_msgs/srv/detail/set_io__rosidl_typesupport_introspection_c.h
+[4.259s] -- Up-to-date: /home/dualarm/hiwin_ws/install/hiwin_msgs/include/hiwin_msgs/hiwin_msgs/msg
+[4.259s] -- Up-to-date: /home/dualarm/hiwin_ws/install/hiwin_msgs/include/hiwin_msgs/hiwin_msgs/msg/detail
+[4.259s] -- Installing: /home/dualarm/hiwin_ws/install/hiwin_msgs/include/hiwin_msgs/hiwin_msgs/msg/detail/digital_io_states__type_support.c
+[4.259s] -- Installing: /home/dualarm/hiwin_ws/install/hiwin_msgs/include/hiwin_msgs/hiwin_msgs/msg/detail/digital_io_states__rosidl_typesupport_introspection_c.h
+[4.260s] -- Installing: /home/dualarm/hiwin_ws/install/hiwin_msgs/include/hiwin_msgs/hiwin_msgs/msg/detail/system_io_states__type_support.c
+[4.260s] -- Installing: /home/dualarm/hiwin_ws/install/hiwin_msgs/include/hiwin_msgs/hiwin_msgs/msg/detail/system_io_states__rosidl_typesupport_introspection_c.h
+[4.260s] -- Installing: /home/dualarm/hiwin_ws/install/hiwin_msgs/include/hiwin_msgs/hiwin_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[4.260s] -- Installing: /home/dualarm/hiwin_ws/install/hiwin_msgs/lib/libhiwin_msgs__rosidl_typesupport_introspection_c.so
+[4.260s] -- Set runtime path of "/home/dualarm/hiwin_ws/install/hiwin_msgs/lib/libhiwin_msgs__rosidl_typesupport_introspection_c.so" to ""
+[4.260s] -- Installing: /home/dualarm/hiwin_ws/install/hiwin_msgs/lib/libhiwin_msgs__rosidl_typesupport_c.so
+[4.260s] -- Set runtime path of "/home/dualarm/hiwin_ws/install/hiwin_msgs/lib/libhiwin_msgs__rosidl_typesupport_c.so" to ""
+[4.260s] -- Up-to-date: /home/dualarm/hiwin_ws/install/hiwin_msgs/include/hiwin_msgs/hiwin_msgs
+[4.260s] -- Up-to-date: /home/dualarm/hiwin_ws/install/hiwin_msgs/include/hiwin_msgs/hiwin_msgs/srv
+[4.260s] -- Up-to-date: /home/dualarm/hiwin_ws/install/hiwin_msgs/include/hiwin_msgs/hiwin_msgs/srv/detail
+[4.260s] -- Installing: /home/dualarm/hiwin_ws/install/hiwin_msgs/include/hiwin_msgs/hiwin_msgs/srv/detail/set_io__type_support.cpp
+[4.260s] -- Installing: /home/dualarm/hiwin_ws/install/hiwin_msgs/include/hiwin_msgs/hiwin_msgs/srv/detail/reset_joint_fault__rosidl_typesupport_introspection_cpp.hpp
+[4.260s] -- Installing: /home/dualarm/hiwin_ws/install/hiwin_msgs/include/hiwin_msgs/hiwin_msgs/srv/detail/set_io__rosidl_typesupport_introspection_cpp.hpp
+[4.260s] -- Installing: /home/dualarm/hiwin_ws/install/hiwin_msgs/include/hiwin_msgs/hiwin_msgs/srv/detail/reset_joint_fault__type_support.cpp
+[4.261s] -- Up-to-date: /home/dualarm/hiwin_ws/install/hiwin_msgs/include/hiwin_msgs/hiwin_msgs/msg
+[4.261s] -- Up-to-date: /home/dualarm/hiwin_ws/install/hiwin_msgs/include/hiwin_msgs/hiwin_msgs/msg/detail
+[4.261s] -- Installing: /home/dualarm/hiwin_ws/install/hiwin_msgs/include/hiwin_msgs/hiwin_msgs/msg/detail/system_io_states__type_support.cpp
+[4.261s] -- Installing: /home/dualarm/hiwin_ws/install/hiwin_msgs/include/hiwin_msgs/hiwin_msgs/msg/detail/digital_io_states__rosidl_typesupport_introspection_cpp.hpp
+[4.261s] -- Installing: /home/dualarm/hiwin_ws/install/hiwin_msgs/include/hiwin_msgs/hiwin_msgs/msg/detail/digital_io_states__type_support.cpp
+[4.261s] -- Installing: /home/dualarm/hiwin_ws/install/hiwin_msgs/include/hiwin_msgs/hiwin_msgs/msg/detail/system_io_states__rosidl_typesupport_introspection_cpp.hpp
+[4.261s] -- Installing: /home/dualarm/hiwin_ws/install/hiwin_msgs/lib/libhiwin_msgs__rosidl_typesupport_introspection_cpp.so
+[4.261s] -- Set runtime path of "/home/dualarm/hiwin_ws/install/hiwin_msgs/lib/libhiwin_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[4.261s] -- Installing: /home/dualarm/hiwin_ws/install/hiwin_msgs/lib/libhiwin_msgs__rosidl_typesupport_cpp.so
+[4.261s] -- Set runtime path of "/home/dualarm/hiwin_ws/install/hiwin_msgs/lib/libhiwin_msgs__rosidl_typesupport_cpp.so" to ""
+[4.261s] -- Installing: /home/dualarm/hiwin_ws/install/hiwin_msgs/share/hiwin_msgs/environment/pythonpath.sh
+[4.261s] -- Installing: /home/dualarm/hiwin_ws/install/hiwin_msgs/share/hiwin_msgs/environment/pythonpath.dsv
+[4.261s] -- Installing: /home/dualarm/hiwin_ws/install/hiwin_msgs/local/lib/python3.10/dist-packages/hiwin_msgs-0.0.0-py3.10.egg-info
+[4.261s] -- Installing: /home/dualarm/hiwin_ws/install/hiwin_msgs/local/lib/python3.10/dist-packages/hiwin_msgs-0.0.0-py3.10.egg-info/dependency_links.txt
+[4.261s] -- Installing: /home/dualarm/hiwin_ws/install/hiwin_msgs/local/lib/python3.10/dist-packages/hiwin_msgs-0.0.0-py3.10.egg-info/top_level.txt
+[4.261s] -- Installing: /home/dualarm/hiwin_ws/install/hiwin_msgs/local/lib/python3.10/dist-packages/hiwin_msgs-0.0.0-py3.10.egg-info/PKG-INFO
+[4.261s] -- Installing: /home/dualarm/hiwin_ws/install/hiwin_msgs/local/lib/python3.10/dist-packages/hiwin_msgs-0.0.0-py3.10.egg-info/SOURCES.txt
+[4.261s] -- Installing: /home/dualarm/hiwin_ws/install/hiwin_msgs/local/lib/python3.10/dist-packages/hiwin_msgs
+[4.261s] -- Installing: /home/dualarm/hiwin_ws/install/hiwin_msgs/local/lib/python3.10/dist-packages/hiwin_msgs/_hiwin_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[4.261s] -- Installing: /home/dualarm/hiwin_ws/install/hiwin_msgs/local/lib/python3.10/dist-packages/hiwin_msgs/hiwin_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.261s] -- Installing: /home/dualarm/hiwin_ws/install/hiwin_msgs/local/lib/python3.10/dist-packages/hiwin_msgs/_hiwin_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[4.261s] -- Installing: /home/dualarm/hiwin_ws/install/hiwin_msgs/local/lib/python3.10/dist-packages/hiwin_msgs/srv
+[4.261s] -- Installing: /home/dualarm/hiwin_ws/install/hiwin_msgs/local/lib/python3.10/dist-packages/hiwin_msgs/srv/_reset_joint_fault.py
+[4.262s] -- Installing: /home/dualarm/hiwin_ws/install/hiwin_msgs/local/lib/python3.10/dist-packages/hiwin_msgs/srv/_set_io_s.c
+[4.262s] -- Installing: /home/dualarm/hiwin_ws/install/hiwin_msgs/local/lib/python3.10/dist-packages/hiwin_msgs/srv/_reset_joint_fault_s.c
+[4.262s] -- Installing: /home/dualarm/hiwin_ws/install/hiwin_msgs/local/lib/python3.10/dist-packages/hiwin_msgs/srv/__init__.py
+[4.262s] -- Installing: /home/dualarm/hiwin_ws/install/hiwin_msgs/local/lib/python3.10/dist-packages/hiwin_msgs/srv/_set_io.py
+[4.262s] -- Installing: /home/dualarm/hiwin_ws/install/hiwin_msgs/local/lib/python3.10/dist-packages/hiwin_msgs/hiwin_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.262s] -- Installing: /home/dualarm/hiwin_ws/install/hiwin_msgs/local/lib/python3.10/dist-packages/hiwin_msgs/_hiwin_msgs_s.ep.rosidl_typesupport_c.c
+[4.262s] -- Installing: /home/dualarm/hiwin_ws/install/hiwin_msgs/local/lib/python3.10/dist-packages/hiwin_msgs/hiwin_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.262s] -- Installing: /home/dualarm/hiwin_ws/install/hiwin_msgs/local/lib/python3.10/dist-packages/hiwin_msgs/libhiwin_msgs__rosidl_generator_py.so
+[4.262s] -- Installing: /home/dualarm/hiwin_ws/install/hiwin_msgs/local/lib/python3.10/dist-packages/hiwin_msgs/msg
+[4.262s] -- Installing: /home/dualarm/hiwin_ws/install/hiwin_msgs/local/lib/python3.10/dist-packages/hiwin_msgs/msg/_system_io_states_s.c
+[4.262s] -- Installing: /home/dualarm/hiwin_ws/install/hiwin_msgs/local/lib/python3.10/dist-packages/hiwin_msgs/msg/_digital_io_states_s.c
+[4.262s] -- Installing: /home/dualarm/hiwin_ws/install/hiwin_msgs/local/lib/python3.10/dist-packages/hiwin_msgs/msg/_system_io_states.py
+[4.262s] -- Installing: /home/dualarm/hiwin_ws/install/hiwin_msgs/local/lib/python3.10/dist-packages/hiwin_msgs/msg/_digital_io_states.py
+[4.262s] -- Installing: /home/dualarm/hiwin_ws/install/hiwin_msgs/local/lib/python3.10/dist-packages/hiwin_msgs/msg/__init__.py
+[4.262s] -- Installing: /home/dualarm/hiwin_ws/install/hiwin_msgs/local/lib/python3.10/dist-packages/hiwin_msgs/__init__.py
+[4.292s] Listing '/home/dualarm/hiwin_ws/install/hiwin_msgs/local/lib/python3.10/dist-packages/hiwin_msgs'...
+[4.292s] Compiling '/home/dualarm/hiwin_ws/install/hiwin_msgs/local/lib/python3.10/dist-packages/hiwin_msgs/__init__.py'...
+[4.292s] Listing '/home/dualarm/hiwin_ws/install/hiwin_msgs/local/lib/python3.10/dist-packages/hiwin_msgs/msg'...
+[4.292s] Compiling '/home/dualarm/hiwin_ws/install/hiwin_msgs/local/lib/python3.10/dist-packages/hiwin_msgs/msg/__init__.py'...
+[4.292s] Compiling '/home/dualarm/hiwin_ws/install/hiwin_msgs/local/lib/python3.10/dist-packages/hiwin_msgs/msg/_digital_io_states.py'...
+[4.292s] Compiling '/home/dualarm/hiwin_ws/install/hiwin_msgs/local/lib/python3.10/dist-packages/hiwin_msgs/msg/_system_io_states.py'...
+[4.292s] Listing '/home/dualarm/hiwin_ws/install/hiwin_msgs/local/lib/python3.10/dist-packages/hiwin_msgs/srv'...
+[4.292s] Compiling '/home/dualarm/hiwin_ws/install/hiwin_msgs/local/lib/python3.10/dist-packages/hiwin_msgs/srv/__init__.py'...
+[4.292s] Compiling '/home/dualarm/hiwin_ws/install/hiwin_msgs/local/lib/python3.10/dist-packages/hiwin_msgs/srv/_reset_joint_fault.py'...
+[4.292s] Compiling '/home/dualarm/hiwin_ws/install/hiwin_msgs/local/lib/python3.10/dist-packages/hiwin_msgs/srv/_set_io.py'...
+[4.295s] -- Installing: /home/dualarm/hiwin_ws/install/hiwin_msgs/local/lib/python3.10/dist-packages/hiwin_msgs/hiwin_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.295s] -- Set runtime path of "/home/dualarm/hiwin_ws/install/hiwin_msgs/local/lib/python3.10/dist-packages/hiwin_msgs/hiwin_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.295s] -- Installing: /home/dualarm/hiwin_ws/install/hiwin_msgs/local/lib/python3.10/dist-packages/hiwin_msgs/hiwin_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.295s] -- Set runtime path of "/home/dualarm/hiwin_ws/install/hiwin_msgs/local/lib/python3.10/dist-packages/hiwin_msgs/hiwin_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.296s] -- Installing: /home/dualarm/hiwin_ws/install/hiwin_msgs/local/lib/python3.10/dist-packages/hiwin_msgs/hiwin_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.296s] -- Set runtime path of "/home/dualarm/hiwin_ws/install/hiwin_msgs/local/lib/python3.10/dist-packages/hiwin_msgs/hiwin_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.296s] -- Installing: /home/dualarm/hiwin_ws/install/hiwin_msgs/lib/libhiwin_msgs__rosidl_generator_py.so
+[4.296s] -- Set runtime path of "/home/dualarm/hiwin_ws/install/hiwin_msgs/lib/libhiwin_msgs__rosidl_generator_py.so" to ""
+[4.296s] -- Installing: /home/dualarm/hiwin_ws/install/hiwin_msgs/share/ament_index/resource_index/rust_packages/hiwin_msgs
+[4.296s] -- Installing: /home/dualarm/hiwin_ws/install/hiwin_msgs/share/hiwin_msgs/rust
+[4.296s] -- Installing: /home/dualarm/hiwin_ws/install/hiwin_msgs/share/hiwin_msgs/rust/build.rs
+[4.296s] -- Installing: /home/dualarm/hiwin_ws/install/hiwin_msgs/share/hiwin_msgs/rust/Cargo.toml
+[4.296s] -- Installing: /home/dualarm/hiwin_ws/install/hiwin_msgs/share/hiwin_msgs/rust/src
+[4.296s] -- Installing: /home/dualarm/hiwin_ws/install/hiwin_msgs/share/hiwin_msgs/rust/src/lib.rs
+[4.296s] -- Installing: /home/dualarm/hiwin_ws/install/hiwin_msgs/share/hiwin_msgs/rust/src/srv
+[4.296s] -- Installing: /home/dualarm/hiwin_ws/install/hiwin_msgs/share/hiwin_msgs/rust/src/srv/rmw.rs
+[4.297s] -- Installing: /home/dualarm/hiwin_ws/install/hiwin_msgs/share/hiwin_msgs/rust/src/srv.rs
+[4.297s] -- Installing: /home/dualarm/hiwin_ws/install/hiwin_msgs/share/hiwin_msgs/rust/src/msg.rs
+[4.297s] -- Installing: /home/dualarm/hiwin_ws/install/hiwin_msgs/share/hiwin_msgs/rust/src/msg
+[4.297s] -- Installing: /home/dualarm/hiwin_ws/install/hiwin_msgs/share/hiwin_msgs/rust/src/msg/rmw.rs
+[4.297s] -- Installing: /home/dualarm/hiwin_ws/install/hiwin_msgs/share/hiwin_msgs/msg/SystemIOStates.idl
+[4.297s] -- Installing: /home/dualarm/hiwin_ws/install/hiwin_msgs/share/hiwin_msgs/msg/DigitalIOStates.idl
+[4.297s] -- Installing: /home/dualarm/hiwin_ws/install/hiwin_msgs/share/hiwin_msgs/srv/SetIO.idl
+[4.297s] -- Installing: /home/dualarm/hiwin_ws/install/hiwin_msgs/share/hiwin_msgs/srv/ResetJointFault.idl
+[4.297s] -- Installing: /home/dualarm/hiwin_ws/install/hiwin_msgs/share/hiwin_msgs/msg/SystemIOStates.msg
+[4.297s] -- Installing: /home/dualarm/hiwin_ws/install/hiwin_msgs/share/hiwin_msgs/msg/DigitalIOStates.msg
+[4.297s] -- Installing: /home/dualarm/hiwin_ws/install/hiwin_msgs/share/hiwin_msgs/srv/SetIO.srv
+[4.297s] -- Installing: /home/dualarm/hiwin_ws/install/hiwin_msgs/share/hiwin_msgs/srv/SetIO_Request.msg
+[4.297s] -- Installing: /home/dualarm/hiwin_ws/install/hiwin_msgs/share/hiwin_msgs/srv/SetIO_Response.msg
+[4.298s] -- Installing: /home/dualarm/hiwin_ws/install/hiwin_msgs/share/hiwin_msgs/srv/ResetJointFault.srv
+[4.298s] -- Installing: /home/dualarm/hiwin_ws/install/hiwin_msgs/share/hiwin_msgs/srv/ResetJointFault_Request.msg
+[4.298s] -- Installing: /home/dualarm/hiwin_ws/install/hiwin_msgs/share/hiwin_msgs/srv/ResetJointFault_Response.msg
+[4.298s] -- Installing: /home/dualarm/hiwin_ws/install/hiwin_msgs/share/ament_index/resource_index/package_run_dependencies/hiwin_msgs
+[4.298s] -- Installing: /home/dualarm/hiwin_ws/install/hiwin_msgs/share/ament_index/resource_index/parent_prefix_path/hiwin_msgs
+[4.298s] -- Installing: /home/dualarm/hiwin_ws/install/hiwin_msgs/share/hiwin_msgs/environment/ament_prefix_path.sh
+[4.298s] -- Installing: /home/dualarm/hiwin_ws/install/hiwin_msgs/share/hiwin_msgs/environment/ament_prefix_path.dsv
+[4.298s] -- Installing: /home/dualarm/hiwin_ws/install/hiwin_msgs/share/hiwin_msgs/environment/path.sh
+[4.298s] -- Installing: /home/dualarm/hiwin_ws/install/hiwin_msgs/share/hiwin_msgs/environment/path.dsv
+[4.298s] -- Installing: /home/dualarm/hiwin_ws/install/hiwin_msgs/share/hiwin_msgs/local_setup.bash
+[4.298s] -- Installing: /home/dualarm/hiwin_ws/install/hiwin_msgs/share/hiwin_msgs/local_setup.sh
+[4.299s] -- Installing: /home/dualarm/hiwin_ws/install/hiwin_msgs/share/hiwin_msgs/local_setup.zsh
+[4.299s] -- Installing: /home/dualarm/hiwin_ws/install/hiwin_msgs/share/hiwin_msgs/local_setup.dsv
+[4.299s] -- Installing: /home/dualarm/hiwin_ws/install/hiwin_msgs/share/hiwin_msgs/package.dsv
+[4.299s] -- Installing: /home/dualarm/hiwin_ws/install/hiwin_msgs/share/ament_index/resource_index/packages/hiwin_msgs
+[4.299s] -- Installing: /home/dualarm/hiwin_ws/install/hiwin_msgs/share/hiwin_msgs/cmake/export_hiwin_msgs__rosidl_generator_cExport.cmake
+[4.299s] -- Installing: /home/dualarm/hiwin_ws/install/hiwin_msgs/share/hiwin_msgs/cmake/export_hiwin_msgs__rosidl_generator_cExport-release.cmake
+[4.299s] -- Installing: /home/dualarm/hiwin_ws/install/hiwin_msgs/share/hiwin_msgs/cmake/export_hiwin_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[4.299s] -- Installing: /home/dualarm/hiwin_ws/install/hiwin_msgs/share/hiwin_msgs/cmake/export_hiwin_msgs__rosidl_typesupport_fastrtps_cExport-release.cmake
+[4.299s] -- Installing: /home/dualarm/hiwin_ws/install/hiwin_msgs/share/hiwin_msgs/cmake/export_hiwin_msgs__rosidl_generator_cppExport.cmake
+[4.299s] -- Installing: /home/dualarm/hiwin_ws/install/hiwin_msgs/share/hiwin_msgs/cmake/export_hiwin_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[4.299s] -- Installing: /home/dualarm/hiwin_ws/install/hiwin_msgs/share/hiwin_msgs/cmake/export_hiwin_msgs__rosidl_typesupport_fastrtps_cppExport-release.cmake
+[4.300s] -- Installing: /home/dualarm/hiwin_ws/install/hiwin_msgs/share/hiwin_msgs/cmake/hiwin_msgs__rosidl_typesupport_introspection_cExport.cmake
+[4.300s] -- Installing: /home/dualarm/hiwin_ws/install/hiwin_msgs/share/hiwin_msgs/cmake/hiwin_msgs__rosidl_typesupport_introspection_cExport-release.cmake
+[4.300s] -- Installing: /home/dualarm/hiwin_ws/install/hiwin_msgs/share/hiwin_msgs/cmake/hiwin_msgs__rosidl_typesupport_cExport.cmake
+[4.300s] -- Installing: /home/dualarm/hiwin_ws/install/hiwin_msgs/share/hiwin_msgs/cmake/hiwin_msgs__rosidl_typesupport_cExport-release.cmake
+[4.300s] -- Installing: /home/dualarm/hiwin_ws/install/hiwin_msgs/share/hiwin_msgs/cmake/hiwin_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[4.300s] -- Installing: /home/dualarm/hiwin_ws/install/hiwin_msgs/share/hiwin_msgs/cmake/hiwin_msgs__rosidl_typesupport_introspection_cppExport-release.cmake
+[4.300s] -- Installing: /home/dualarm/hiwin_ws/install/hiwin_msgs/share/hiwin_msgs/cmake/hiwin_msgs__rosidl_typesupport_cppExport.cmake
+[4.300s] -- Installing: /home/dualarm/hiwin_ws/install/hiwin_msgs/share/hiwin_msgs/cmake/hiwin_msgs__rosidl_typesupport_cppExport-release.cmake
+[4.300s] -- Installing: /home/dualarm/hiwin_ws/install/hiwin_msgs/share/hiwin_msgs/cmake/export_hiwin_msgs__rosidl_generator_pyExport.cmake
+[4.300s] -- Installing: /home/dualarm/hiwin_ws/install/hiwin_msgs/share/hiwin_msgs/cmake/export_hiwin_msgs__rosidl_generator_pyExport-release.cmake
+[4.300s] -- Installing: /home/dualarm/hiwin_ws/install/hiwin_msgs/share/hiwin_msgs/cmake/rosidl_cmake-extras.cmake
+[4.301s] -- Installing: /home/dualarm/hiwin_ws/install/hiwin_msgs/share/hiwin_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.301s] -- Installing: /home/dualarm/hiwin_ws/install/hiwin_msgs/share/hiwin_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.301s] -- Installing: /home/dualarm/hiwin_ws/install/hiwin_msgs/share/hiwin_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[4.301s] -- Installing: /home/dualarm/hiwin_ws/install/hiwin_msgs/share/hiwin_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[4.301s] -- Installing: /home/dualarm/hiwin_ws/install/hiwin_msgs/share/hiwin_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[4.301s] -- Installing: /home/dualarm/hiwin_ws/install/hiwin_msgs/share/hiwin_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[4.301s] -- Installing: /home/dualarm/hiwin_ws/install/hiwin_msgs/share/hiwin_msgs/cmake/hiwin_msgsConfig.cmake
+[4.301s] -- Installing: /home/dualarm/hiwin_ws/install/hiwin_msgs/share/hiwin_msgs/cmake/hiwin_msgsConfig-version.cmake
+[4.301s] -- Installing: /home/dualarm/hiwin_ws/install/hiwin_msgs/share/hiwin_msgs/package.xml
+[4.303s] Invoked command in '/home/dualarm/hiwin_ws/build/hiwin_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dualarm/ws_moveit2/install/moveit_configs_utils:/home/dualarm/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/dualarm/hiwin_ws/build/hiwin_msgs

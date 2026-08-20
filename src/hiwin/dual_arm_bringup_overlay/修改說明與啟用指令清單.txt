@@ -1,0 +1,158 @@
+=====================================================================
+ 修改說明與啟用指令清單（big_arm_bringup / small_arm_bringup）
+=====================================================================
+
+---------------------------------------------------------------------
+ 一、修改緣由
+---------------------------------------------------------------------
+  原廠 hiwin_driver 為單一手臂獨佔 ROS 2 系統之設計（根命名空間、
+  關節名 joint_1~6）。本系統需於同一 ROS 2 網域同時運行兩支手臂
+  （RA610-1476 與 RA605-710），直接沿用會造成 joint_states、
+  controller_manager、軌跡 action 與關節名互相衝突。
+
+---------------------------------------------------------------------
+ 二、修改內容（皆為獨立新套件，未更動任何原廠檔案）
+---------------------------------------------------------------------
+  1. launch/ra6_control.launch.py
+     - 參考來源：hiwin_driver/launch/ra6_control.launch.py
+     - 將該臂所有節點推入專屬命名空間（big_arm / small_arm）
+     - 將 tf_prefix（big_ / small_）傳入 URDF xacro，使關節與連桿
+       名前綴化
+     - controller_manager 等改用相對名稱，使其隨命名空間解析
+  2. config/ra6_controllers.yaml
+     - 參考來源：hiwin_driver/config/ra6_controllers.yaml
+     - 關節名改為前綴版（big_joint_1~6 / small_joint_1~6）
+     - 以 /**: 萬用鍵包裹，使設定可於任意命名空間下載入
+  3. 以上僅變更節點、topic 與關節在 ROS 層之「命名」；
+     未更動 EtherCAT 從站定址、控制頻率與驅動器參數等相關設定檔。
+
+---------------------------------------------------------------------
+ 三、系統架構總覽
+---------------------------------------------------------------------
+
+  機器          手臂             namespace    tf_prefix   部署的套件
+  ------------  ---------------  -----------  ----------  ------------------
+  A 機械手臂    RA610-1476-GC2   big_arm      big_        big_arm_bringup
+  B 機械手臂    RA605-710-GC2    small_arm    small_      small_arm_bringup
+
+  主機：執行 hiwin_dual_arm（joint_state_merger + brain + 雙臂避障插件）。
+
+---------------------------------------------------------------------
+ 四、編譯方式（一次性；於新建工作空間編譯，與原廠工作空間分開存放）
+---------------------------------------------------------------------
+  # dual_arm_ws：機械手臂上新創的工作空間，
+  #              用來放入 big_arm_bringup 或 small_arm_bringup 進行隔離編譯
+  source /opt/ros/humble/setup.bash
+  source ~/ws_ros2/install/setup.bash        # 原廠工作空間
+  mkdir -p ~/dual_arm_ws/src
+  （將 big_arm_bringup 或 small_arm_bringup 放入 ~/dual_arm_ws/src）
+  cd ~/dual_arm_ws && colcon build
+  source ~/dual_arm_ws/install/setup.bash
+
+---------------------------------------------------------------------
+ 五、每個終端的環境準備（所有指令前必做）
+---------------------------------------------------------------------
+  source /opt/ros/humble/setup.bash
+  source ~/ws_ros2/install/setup.bash
+  source ~/dual_arm_ws/install/setup.bash
+
+---------------------------------------------------------------------
+ 六、標準啟動流程（日常部署）
+---------------------------------------------------------------------
+  建議順序：A 機械手臂 → B 機械手臂 → 主機
+  （merger/brain 啟動時兩臂 joint_states 已就緒）
+
+ [6.1] A 機械手臂（RA610-1476）— Terminal 1
+  ---------------------------------------------------
+  sudo /etc/init.d/ethercat start
+  source /opt/ros/humble/setup.bash
+  source ~/ws_ros2/install/setup.bash
+  source ~/dual_arm_ws/install/setup.bash
+  taskset -c 2 ros2 launch big_arm_bringup ra6_control.launch.py ra_type:=ra610_1476 cabinet:=ecat tf_prefix:=big_ namespace:=big_arm launch_rviz:=false
+
+  註：可 launch_rviz:=true，但 SSH 遠端時畫面會很卡。
+  註：模擬時改帶 use_fake_hardware:=true cabinet:=gc2
+      （兩個一起；模擬無 gpio_controller）。
+
+ [6.2] A 機械手臂 — 首次開機需重置 Safety Relay — Terminal 2
+  ---------------------------------------------------
+  source /opt/ros/humble/setup.bash
+  source ~/ws_ros2/install/setup.bash
+  source ~/dual_arm_ws/install/setup.bash
+  ros2 service call /big_arm/gpio_controller/set_io hiwin_msgs/srv/SetIO "{io_group: system, interface_name: reset_safety_rly, value: 1.0}"
+
+ [6.3] B 機械手臂（RA605-710）— Terminal 1
+  ---------------------------------------------------
+  sudo /etc/init.d/ethercat start
+  source /opt/ros/humble/setup.bash
+  source ~/ws_ros2/install/setup.bash
+  source ~/dual_arm_ws/install/setup.bash
+  taskset -c 2 ros2 launch small_arm_bringup ra6_control.launch.py ra_type:=ra605_710 cabinet:=ecat tf_prefix:=small_ namespace:=small_arm launch_rviz:=false
+
+  註：可 launch_rviz:=true，但 SSH 遠端時畫面會很卡。
+  註：模擬時改帶 use_fake_hardware:=true cabinet:=gc2
+      （兩個一起；模擬無 gpio_controller）。
+
+ [6.4] B 機械手臂 — 首次開機需重置 Safety Relay — Terminal 2
+  ---------------------------------------------------
+  source /opt/ros/humble/setup.bash
+  source ~/ws_ros2/install/setup.bash
+  source ~/dual_arm_ws/install/setup.bash
+  ros2 service call /small_arm/gpio_controller/set_io hiwin_msgs/srv/SetIO "{io_group: system, interface_name: reset_safety_rly, value: 1.0}"
+
+ [6.5] 主機 — Terminal 1（merger）與 Terminal 2（brain）
+  ---------------------------------------------------
+  # Terminal 1
+  source ~/hiwin_dual_arm/install/setup.bash
+  ros2 run hiwin_dual_arm joint_state_merger
+
+  # Terminal 2
+  source ~/hiwin_dual_arm/install/setup.bash
+  ros2 launch hiwin_dual_arm brain.launch.py launch_rviz:=true
+
+ [6.6] 關機順序
+  ---------------------------------------------------
+  RViz 關閉 → 主機 brain / merger（Ctrl+C）→ 兩臂 launch（Ctrl+C）
+
+---------------------------------------------------------------------
+ 七、警報重置流程（驅動器警報 / 按下緊急開關後）
+---------------------------------------------------------------------
+  順序：(1) 緊急開關打開（實體旋鈕釋放）
+        (2) 逐軸清除警報（6 軸）
+        (3) 再啟動 Safety Relay
+
+ [7.1] A 機械手臂（RA610-1476）
+  ---------------------------------------------------
+  # (1) 緊急開關打開（實體操作，無指令）
+
+  # (2) 逐軸清除警報
+  ros2 service call /big_arm/reset_fault_controller/reset_fault hiwin_msgs/srv/ResetJointFault "{joint_name: 'big_joint_1'}"
+  ros2 service call /big_arm/reset_fault_controller/reset_fault hiwin_msgs/srv/ResetJointFault "{joint_name: 'big_joint_2'}"
+  ros2 service call /big_arm/reset_fault_controller/reset_fault hiwin_msgs/srv/ResetJointFault "{joint_name: 'big_joint_3'}"
+  ros2 service call /big_arm/reset_fault_controller/reset_fault hiwin_msgs/srv/ResetJointFault "{joint_name: 'big_joint_4'}"
+  ros2 service call /big_arm/reset_fault_controller/reset_fault hiwin_msgs/srv/ResetJointFault "{joint_name: 'big_joint_5'}"
+  ros2 service call /big_arm/reset_fault_controller/reset_fault hiwin_msgs/srv/ResetJointFault "{joint_name: 'big_joint_6'}"
+
+  # (3) 再啟動 Safety Relay
+  ros2 service call /big_arm/gpio_controller/set_io hiwin_msgs/srv/SetIO "{io_group: system, interface_name: reset_safety_rly, value: 1.0}"
+
+ [7.2] B 機械手臂（RA605-710）
+  ---------------------------------------------------
+  # (1) 緊急開關打開（實體操作，無指令）
+
+  # (2) 逐軸清除警報
+  ros2 service call /small_arm/reset_fault_controller/reset_fault hiwin_msgs/srv/ResetJointFault "{joint_name: 'small_joint_1'}"
+  ros2 service call /small_arm/reset_fault_controller/reset_fault hiwin_msgs/srv/ResetJointFault "{joint_name: 'small_joint_2'}"
+  ros2 service call /small_arm/reset_fault_controller/reset_fault hiwin_msgs/srv/ResetJointFault "{joint_name: 'small_joint_3'}"
+  ros2 service call /small_arm/reset_fault_controller/reset_fault hiwin_msgs/srv/ResetJointFault "{joint_name: 'small_joint_4'}"
+  ros2 service call /small_arm/reset_fault_controller/reset_fault hiwin_msgs/srv/ResetJointFault "{joint_name: 'small_joint_5'}"
+  ros2 service call /small_arm/reset_fault_controller/reset_fault hiwin_msgs/srv/ResetJointFault "{joint_name: 'small_joint_6'}"
+
+  # (3) 再啟動 Safety Relay
+  ros2 service call /small_arm/gpio_controller/set_io hiwin_msgs/srv/SetIO "{io_group: system, interface_name: reset_safety_rly, value: 1.0}"
+
+  注意：io_group: system 與 interface_name: reset_safety_rly 不加前綴
+        （GPIO 介面無 tf_prefix）；
+        joint_name 必須用前綴名（big_joint_N / small_joint_N）。
+
+

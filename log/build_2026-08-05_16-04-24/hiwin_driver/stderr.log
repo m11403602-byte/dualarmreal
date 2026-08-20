@@ -1,0 +1,19 @@
+[31mCMake Error at CMakeLists.txt:18 (find_package):
+  By not providing "Findhiwin_robot_client_library.cmake" in
+  CMAKE_MODULE_PATH this project has asked CMake to find a package
+  configuration file provided by "hiwin_robot_client_library", but CMake did
+  not find one.
+
+  Could not find a package configuration file provided by
+  "hiwin_robot_client_library" with any of the following names:
+
+    hiwin_robot_client_libraryConfig.cmake
+    hiwin_robot_client_library-config.cmake
+
+  Add the installation prefix of "hiwin_robot_client_library" to
+  CMAKE_PREFIX_PATH or set "hiwin_robot_client_library_DIR" to a directory
+  containing one of the above files.  If "hiwin_robot_client_library"
+  provides a separate development package or SDK, be sure it has been
+  installed.
+
+[0m

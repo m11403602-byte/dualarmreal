@@ -1,0 +1,9 @@
+{
+  "package_name": "hiwin_msgs",
+  "non_idl_tuples": [
+    "/home/dualarm/hiwin_ws/src/hiwin/hiwin_ros2/hiwin_msgs:msg/SystemIOStates.msg",
+    "/home/dualarm/hiwin_ws/src/hiwin/hiwin_ros2/hiwin_msgs:msg/DigitalIOStates.msg",
+    "/home/dualarm/hiwin_ws/src/hiwin/hiwin_ros2/hiwin_msgs:srv/SetIO.srv",
+    "/home/dualarm/hiwin_ws/src/hiwin/hiwin_ros2/hiwin_msgs:srv/ResetJointFault.srv"
+  ]
+}

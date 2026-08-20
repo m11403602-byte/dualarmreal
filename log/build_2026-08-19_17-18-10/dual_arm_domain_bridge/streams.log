@@ -1,0 +1,32 @@
+[0.011s] Invoking command in '/home/dualarm/hiwin_ws/build/dual_arm_domain_bridge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dualarm/ws_moveit2/install/moveit_configs_utils:/home/dualarm/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/dualarm/hiwin_ws/build/dual_arm_domain_bridge -- -j16 -l16
+[0.071s] [ 50%] [32mBuilding CXX object CMakeFiles/joint_state_uplink_bridge.dir/src/joint_state_uplink_bridge.cpp.o[0m
+[0.072s] [ 50%] [32mBuilding CXX object CMakeFiles/trajectory_downlink_endpoint_relay.dir/src/trajectory_downlink_endpoint_relay.cpp.o[0m
+[8.328s] [ 75%] [32m[1mLinking CXX executable joint_state_uplink_bridge[0m
+[8.446s] [ 75%] Built target joint_state_uplink_bridge
+[14.391s] [100%] [32m[1mLinking CXX executable trajectory_downlink_endpoint_relay[0m
+[14.541s] [100%] Built target trajectory_downlink_endpoint_relay
+[14.552s] Invoked command in '/home/dualarm/hiwin_ws/build/dual_arm_domain_bridge' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dualarm/ws_moveit2/install/moveit_configs_utils:/home/dualarm/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/dualarm/hiwin_ws/build/dual_arm_domain_bridge -- -j16 -l16
+[14.553s] Invoking command in '/home/dualarm/hiwin_ws/build/dual_arm_domain_bridge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dualarm/ws_moveit2/install/moveit_configs_utils:/home/dualarm/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/dualarm/hiwin_ws/build/dual_arm_domain_bridge
+[14.561s] -- Install configuration: "Release"
+[14.561s] -- Up-to-date: /home/dualarm/hiwin_ws/install/dual_arm_domain_bridge/share/dual_arm_domain_bridge/launch
+[14.562s] -- Up-to-date: /home/dualarm/hiwin_ws/install/dual_arm_domain_bridge/share/dual_arm_domain_bridge/launch/bridge_relay.launch.py
+[14.563s] -- Installing: /home/dualarm/hiwin_ws/install/dual_arm_domain_bridge/lib/dual_arm_domain_bridge/joint_state_uplink_bridge
+[14.563s] -- Set runtime path of "/home/dualarm/hiwin_ws/install/dual_arm_domain_bridge/lib/dual_arm_domain_bridge/joint_state_uplink_bridge" to ""
+[14.564s] -- Installing: /home/dualarm/hiwin_ws/install/dual_arm_domain_bridge/lib/dual_arm_domain_bridge/trajectory_downlink_endpoint_relay
+[14.565s] -- Set runtime path of "/home/dualarm/hiwin_ws/install/dual_arm_domain_bridge/lib/dual_arm_domain_bridge/trajectory_downlink_endpoint_relay" to ""
+[14.565s] -- Up-to-date: /home/dualarm/hiwin_ws/install/dual_arm_domain_bridge/share/ament_index/resource_index/package_run_dependencies/dual_arm_domain_bridge
+[14.565s] -- Up-to-date: /home/dualarm/hiwin_ws/install/dual_arm_domain_bridge/share/ament_index/resource_index/parent_prefix_path/dual_arm_domain_bridge
+[14.565s] -- Up-to-date: /home/dualarm/hiwin_ws/install/dual_arm_domain_bridge/share/dual_arm_domain_bridge/environment/ament_prefix_path.sh
+[14.565s] -- Up-to-date: /home/dualarm/hiwin_ws/install/dual_arm_domain_bridge/share/dual_arm_domain_bridge/environment/ament_prefix_path.dsv
+[14.565s] -- Up-to-date: /home/dualarm/hiwin_ws/install/dual_arm_domain_bridge/share/dual_arm_domain_bridge/environment/path.sh
+[14.566s] -- Up-to-date: /home/dualarm/hiwin_ws/install/dual_arm_domain_bridge/share/dual_arm_domain_bridge/environment/path.dsv
+[14.566s] -- Up-to-date: /home/dualarm/hiwin_ws/install/dual_arm_domain_bridge/share/dual_arm_domain_bridge/local_setup.bash
+[14.566s] -- Up-to-date: /home/dualarm/hiwin_ws/install/dual_arm_domain_bridge/share/dual_arm_domain_bridge/local_setup.sh
+[14.566s] -- Up-to-date: /home/dualarm/hiwin_ws/install/dual_arm_domain_bridge/share/dual_arm_domain_bridge/local_setup.zsh
+[14.566s] -- Up-to-date: /home/dualarm/hiwin_ws/install/dual_arm_domain_bridge/share/dual_arm_domain_bridge/local_setup.dsv
+[14.566s] -- Installing: /home/dualarm/hiwin_ws/install/dual_arm_domain_bridge/share/dual_arm_domain_bridge/package.dsv
+[14.566s] -- Up-to-date: /home/dualarm/hiwin_ws/install/dual_arm_domain_bridge/share/ament_index/resource_index/packages/dual_arm_domain_bridge
+[14.566s] -- Up-to-date: /home/dualarm/hiwin_ws/install/dual_arm_domain_bridge/share/dual_arm_domain_bridge/cmake/dual_arm_domain_bridgeConfig.cmake
+[14.566s] -- Up-to-date: /home/dualarm/hiwin_ws/install/dual_arm_domain_bridge/share/dual_arm_domain_bridge/cmake/dual_arm_domain_bridgeConfig-version.cmake
+[14.566s] -- Up-to-date: /home/dualarm/hiwin_ws/install/dual_arm_domain_bridge/share/dual_arm_domain_bridge/package.xml
+[14.568s] Invoked command in '/home/dualarm/hiwin_ws/build/dual_arm_domain_bridge' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dualarm/ws_moveit2/install/moveit_configs_utils:/home/dualarm/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/dualarm/hiwin_ws/build/dual_arm_domain_bridge

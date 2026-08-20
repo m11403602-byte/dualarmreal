@@ -1,0 +1,42 @@
+[ 57%] Built target joint_state_parameters
+[ 57%] Built target gpio_controller_parameters
+[ 71%] [32mBuilding CXX object CMakeFiles/hiwin_controllers.dir/src/gpio_controller.cpp.o[0m
+[ 85%] [32mBuilding CXX object CMakeFiles/hiwin_controllers.dir/src/reset_fault_controller.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library libhiwin_controllers.so[0m
+[100%] Built target hiwin_controllers
+-- Install configuration: "Release"
+-- Up-to-date: /home/dualarm/hiwin_ws/install/hiwin_controllers/include/hiwin_controllers
+-- Up-to-date: /home/dualarm/hiwin_ws/install/hiwin_controllers/include/hiwin_controllers/joint_state_parameters.hpp
+-- Up-to-date: /home/dualarm/hiwin_ws/install/hiwin_controllers/include/hiwin_controllers/gpio_controller_parameters.hpp
+-- Up-to-date: /home/dualarm/hiwin_ws/install/hiwin_controllers/include/hiwin_controllers
+-- Up-to-date: /home/dualarm/hiwin_ws/install/hiwin_controllers/include/hiwin_controllers/joint_state_parameters.hpp
+-- Up-to-date: /home/dualarm/hiwin_ws/install/hiwin_controllers/include/hiwin_controllers/gpio_controller_parameters.hpp
+-- Up-to-date: /home/dualarm/hiwin_ws/install/hiwin_controllers/share/hiwin_controllers/controller_plugins.xml
+-- Installing: /home/dualarm/hiwin_ws/install/hiwin_controllers/lib/libhiwin_controllers.so
+-- Set runtime path of "/home/dualarm/hiwin_ws/install/hiwin_controllers/lib/libhiwin_controllers.so" to ""
+-- Up-to-date: /home/dualarm/hiwin_ws/install/hiwin_controllers/include
+-- Up-to-date: /home/dualarm/hiwin_ws/install/hiwin_controllers/include/hiwin_controllers
+-- Up-to-date: /home/dualarm/hiwin_ws/install/hiwin_controllers/include/hiwin_controllers/reset_fault_controller.hpp
+-- Up-to-date: /home/dualarm/hiwin_ws/install/hiwin_controllers/include/hiwin_controllers/gpio_controller.hpp
+-- Up-to-date: /home/dualarm/hiwin_ws/install/hiwin_controllers/share/hiwin_controllers/controller_plugins.xml
+-- Up-to-date: /home/dualarm/hiwin_ws/install/hiwin_controllers/share/hiwin_controllers/environment/library_path.sh
+-- Up-to-date: /home/dualarm/hiwin_ws/install/hiwin_controllers/share/hiwin_controllers/environment/library_path.dsv
+-- Up-to-date: /home/dualarm/hiwin_ws/install/hiwin_controllers/share/ament_index/resource_index/package_run_dependencies/hiwin_controllers
+-- Up-to-date: /home/dualarm/hiwin_ws/install/hiwin_controllers/share/ament_index/resource_index/parent_prefix_path/hiwin_controllers
+-- Up-to-date: /home/dualarm/hiwin_ws/install/hiwin_controllers/share/hiwin_controllers/environment/ament_prefix_path.sh
+-- Up-to-date: /home/dualarm/hiwin_ws/install/hiwin_controllers/share/hiwin_controllers/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/dualarm/hiwin_ws/install/hiwin_controllers/share/hiwin_controllers/environment/path.sh
+-- Up-to-date: /home/dualarm/hiwin_ws/install/hiwin_controllers/share/hiwin_controllers/environment/path.dsv
+-- Up-to-date: /home/dualarm/hiwin_ws/install/hiwin_controllers/share/hiwin_controllers/local_setup.bash
+-- Up-to-date: /home/dualarm/hiwin_ws/install/hiwin_controllers/share/hiwin_controllers/local_setup.sh
+-- Up-to-date: /home/dualarm/hiwin_ws/install/hiwin_controllers/share/hiwin_controllers/local_setup.zsh
+-- Up-to-date: /home/dualarm/hiwin_ws/install/hiwin_controllers/share/hiwin_controllers/local_setup.dsv
+-- Installing: /home/dualarm/hiwin_ws/install/hiwin_controllers/share/hiwin_controllers/package.dsv
+-- Up-to-date: /home/dualarm/hiwin_ws/install/hiwin_controllers/share/ament_index/resource_index/packages/hiwin_controllers
+-- Up-to-date: /home/dualarm/hiwin_ws/install/hiwin_controllers/share/ament_index/resource_index/controller_interface__pluginlib__plugin/hiwin_controllers
+-- Up-to-date: /home/dualarm/hiwin_ws/install/hiwin_controllers/share/hiwin_controllers/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/dualarm/hiwin_ws/install/hiwin_controllers/share/hiwin_controllers/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /home/dualarm/hiwin_ws/install/hiwin_controllers/share/hiwin_controllers/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date: /home/dualarm/hiwin_ws/install/hiwin_controllers/share/hiwin_controllers/cmake/hiwin_controllersConfig.cmake
+-- Up-to-date: /home/dualarm/hiwin_ws/install/hiwin_controllers/share/hiwin_controllers/cmake/hiwin_controllersConfig-version.cmake
+-- Up-to-date: /home/dualarm/hiwin_ws/install/hiwin_controllers/share/hiwin_controllers/package.xml

@@ -1,0 +1,10 @@
+/home/dualarm/hiwin_ws/install/hiwin_robot_client_library/lib/libhrsdk.so
+/home/dualarm/hiwin_ws/install/hiwin_robot_client_library/include/hiwin_robot_client_library/file_client.hpp
+/home/dualarm/hiwin_ws/install/hiwin_robot_client_library/include/hiwin_robot_client_library/commander.hpp
+/home/dualarm/hiwin_ws/install/hiwin_robot_client_library/include/hiwin_robot_client_library/socket/tcp_client.hpp
+/home/dualarm/hiwin_ws/install/hiwin_robot_client_library/include/hiwin_robot_client_library/hiwin_driver.hpp
+/home/dualarm/hiwin_ws/install/hiwin_robot_client_library/include/hiwin_robot_client_library/event_cb.hpp
+/home/dualarm/hiwin_ws/install/hiwin_robot_client_library/lib/cmake/hiwin_robot_client_library/hrsdkTargets.cmake
+/home/dualarm/hiwin_ws/install/hiwin_robot_client_library/lib/cmake/hiwin_robot_client_library/hrsdkTargets-release.cmake
+/home/dualarm/hiwin_ws/install/hiwin_robot_client_library/lib/cmake/hiwin_robot_client_library/hiwin_robot_client_libraryConfig.cmake
+/home/dualarm/hiwin_ws/install/hiwin_robot_client_library/lib/cmake/hiwin_robot_client_library/hiwin_robot_client_libraryConfigVersion.cmake

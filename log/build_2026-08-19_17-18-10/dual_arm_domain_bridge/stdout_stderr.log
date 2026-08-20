@@ -1,0 +1,28 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/joint_state_uplink_bridge.dir/src/joint_state_uplink_bridge.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/trajectory_downlink_endpoint_relay.dir/src/trajectory_downlink_endpoint_relay.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable joint_state_uplink_bridge[0m
+[ 75%] Built target joint_state_uplink_bridge
+[100%] [32m[1mLinking CXX executable trajectory_downlink_endpoint_relay[0m
+[100%] Built target trajectory_downlink_endpoint_relay
+-- Install configuration: "Release"
+-- Up-to-date: /home/dualarm/hiwin_ws/install/dual_arm_domain_bridge/share/dual_arm_domain_bridge/launch
+-- Up-to-date: /home/dualarm/hiwin_ws/install/dual_arm_domain_bridge/share/dual_arm_domain_bridge/launch/bridge_relay.launch.py
+-- Installing: /home/dualarm/hiwin_ws/install/dual_arm_domain_bridge/lib/dual_arm_domain_bridge/joint_state_uplink_bridge
+-- Set runtime path of "/home/dualarm/hiwin_ws/install/dual_arm_domain_bridge/lib/dual_arm_domain_bridge/joint_state_uplink_bridge" to ""
+-- Installing: /home/dualarm/hiwin_ws/install/dual_arm_domain_bridge/lib/dual_arm_domain_bridge/trajectory_downlink_endpoint_relay
+-- Set runtime path of "/home/dualarm/hiwin_ws/install/dual_arm_domain_bridge/lib/dual_arm_domain_bridge/trajectory_downlink_endpoint_relay" to ""
+-- Up-to-date: /home/dualarm/hiwin_ws/install/dual_arm_domain_bridge/share/ament_index/resource_index/package_run_dependencies/dual_arm_domain_bridge
+-- Up-to-date: /home/dualarm/hiwin_ws/install/dual_arm_domain_bridge/share/ament_index/resource_index/parent_prefix_path/dual_arm_domain_bridge
+-- Up-to-date: /home/dualarm/hiwin_ws/install/dual_arm_domain_bridge/share/dual_arm_domain_bridge/environment/ament_prefix_path.sh
+-- Up-to-date: /home/dualarm/hiwin_ws/install/dual_arm_domain_bridge/share/dual_arm_domain_bridge/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/dualarm/hiwin_ws/install/dual_arm_domain_bridge/share/dual_arm_domain_bridge/environment/path.sh
+-- Up-to-date: /home/dualarm/hiwin_ws/install/dual_arm_domain_bridge/share/dual_arm_domain_bridge/environment/path.dsv
+-- Up-to-date: /home/dualarm/hiwin_ws/install/dual_arm_domain_bridge/share/dual_arm_domain_bridge/local_setup.bash
+-- Up-to-date: /home/dualarm/hiwin_ws/install/dual_arm_domain_bridge/share/dual_arm_domain_bridge/local_setup.sh
+-- Up-to-date: /home/dualarm/hiwin_ws/install/dual_arm_domain_bridge/share/dual_arm_domain_bridge/local_setup.zsh
+-- Up-to-date: /home/dualarm/hiwin_ws/install/dual_arm_domain_bridge/share/dual_arm_domain_bridge/local_setup.dsv
+-- Installing: /home/dualarm/hiwin_ws/install/dual_arm_domain_bridge/share/dual_arm_domain_bridge/package.dsv
+-- Up-to-date: /home/dualarm/hiwin_ws/install/dual_arm_domain_bridge/share/ament_index/resource_index/packages/dual_arm_domain_bridge
+-- Up-to-date: /home/dualarm/hiwin_ws/install/dual_arm_domain_bridge/share/dual_arm_domain_bridge/cmake/dual_arm_domain_bridgeConfig.cmake
+-- Up-to-date: /home/dualarm/hiwin_ws/install/dual_arm_domain_bridge/share/dual_arm_domain_bridge/cmake/dual_arm_domain_bridgeConfig-version.cmake
+-- Up-to-date: /home/dualarm/hiwin_ws/install/dual_arm_domain_bridge/share/dual_arm_domain_bridge/package.xml

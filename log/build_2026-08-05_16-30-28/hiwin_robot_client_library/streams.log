@@ -1,0 +1,20 @@
+[0.009s] Invoking command in '/home/dualarm/hiwin_ws/build/hiwin_robot_client_library': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dualarm/ws_moveit2/install/moveit_configs_utils:/home/dualarm/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/dualarm/hiwin_ws/build/hiwin_robot_client_library -- -j16 -l16
+[0.046s] [35m[1mConsolidate compiler generated dependencies of target hrsdk[0m
+[0.059s] [100%] Built target hrsdk
+[0.068s] Invoked command in '/home/dualarm/hiwin_ws/build/hiwin_robot_client_library' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dualarm/ws_moveit2/install/moveit_configs_utils:/home/dualarm/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/dualarm/hiwin_ws/build/hiwin_robot_client_library -- -j16 -l16
+[0.069s] Invoking command in '/home/dualarm/hiwin_ws/build/hiwin_robot_client_library': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dualarm/ws_moveit2/install/moveit_configs_utils:/home/dualarm/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/dualarm/hiwin_ws/build/hiwin_robot_client_library
+[0.077s] -- Install configuration: "Release"
+[0.077s] -- Up-to-date: /home/dualarm/hiwin_ws/install/hiwin_robot_client_library/lib/libhrsdk.so
+[0.077s] -- Up-to-date: /home/dualarm/hiwin_ws/install/hiwin_robot_client_library/include
+[0.077s] -- Up-to-date: /home/dualarm/hiwin_ws/install/hiwin_robot_client_library/include/hiwin_robot_client_library
+[0.077s] -- Up-to-date: /home/dualarm/hiwin_ws/install/hiwin_robot_client_library/include/hiwin_robot_client_library/file_client.hpp
+[0.077s] -- Up-to-date: /home/dualarm/hiwin_ws/install/hiwin_robot_client_library/include/hiwin_robot_client_library/commander.hpp
+[0.077s] -- Up-to-date: /home/dualarm/hiwin_ws/install/hiwin_robot_client_library/include/hiwin_robot_client_library/socket
+[0.077s] -- Up-to-date: /home/dualarm/hiwin_ws/install/hiwin_robot_client_library/include/hiwin_robot_client_library/socket/tcp_client.hpp
+[0.077s] -- Up-to-date: /home/dualarm/hiwin_ws/install/hiwin_robot_client_library/include/hiwin_robot_client_library/hiwin_driver.hpp
+[0.077s] -- Up-to-date: /home/dualarm/hiwin_ws/install/hiwin_robot_client_library/include/hiwin_robot_client_library/event_cb.hpp
+[0.077s] -- Up-to-date: /home/dualarm/hiwin_ws/install/hiwin_robot_client_library/lib/cmake/hiwin_robot_client_library/hrsdkTargets.cmake
+[0.077s] -- Up-to-date: /home/dualarm/hiwin_ws/install/hiwin_robot_client_library/lib/cmake/hiwin_robot_client_library/hrsdkTargets-release.cmake
+[0.078s] -- Up-to-date: /home/dualarm/hiwin_ws/install/hiwin_robot_client_library/lib/cmake/hiwin_robot_client_library/hiwin_robot_client_libraryConfig.cmake
+[0.078s] -- Up-to-date: /home/dualarm/hiwin_ws/install/hiwin_robot_client_library/lib/cmake/hiwin_robot_client_library/hiwin_robot_client_libraryConfigVersion.cmake
+[0.078s] Invoked command in '/home/dualarm/hiwin_ws/build/hiwin_robot_client_library' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dualarm/ws_moveit2/install/moveit_configs_utils:/home/dualarm/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/dualarm/hiwin_ws/build/hiwin_robot_client_library
